@@ -1,0 +1,164 @@
+/* Reset chirurgico per evitare sbandamenti a destra */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #e6e6e6;
+    font-family: 'NewRocker', Regular, monospace;
+    overflow-x: hidden;
+}
+
+/* Contenitore Principale a 3 Colonne Simmetriche */
+.site-container {
+    display: grid;
+    /* Definisce le colonne in modo rigido: 22% a sinistra, 56% al centro, 22% a destra */
+    /* Il totale fa 100% dello spazio interno del contenitore (che è al 90vw reale) */
+    grid-template-columns: 22% 56% 22%;
+    gap: 20px;
+    width: 90vw; /* 90% reale del display senza sbandamenti */
+    margin: 0 auto; /* Centrato matematicamente */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header & Footer occupano tutta la larghezza della Grid */
+header, footer {
+    grid-column: span 3;
+    border: 1px solid #8b0000;
+}
+
+/* Header con Immagine di Sfondo */
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/header.png') no-repeat center/cover;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff0000;
+    margin: 0 0 10px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Blocchi della Grid */
+.sidebar-left, .main-content, .sidebar-right {
+    background-color: #050505;
+    border: 1px solid #4a0000;
+    padding: 15px;
+    min-height: 600px;
+    box-sizing: border-box;
+    /* Gestione chirurgica degli overflow per evitare lo sbandamento a destra */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    min-width: 0; /* Fix fondamentale per far funzionare l'overflow dentro le Grid */
+}
+
+/* Links e Dettagli Rosso Sangue */
+a {
+    color: #ff3333;
+    text-decoration: none;
+}
+
+/* Rende l'elenco dei pacchetti nella barra sinistra scorrevole in sicurezza */
+.sidebar-left ul {
+    max-height: 600px;    /* Blocca l'altezza massima del blocco a 600 pixel */
+    overflow-y: auto;     /* Attiva la barra di scorrimento verticale solo se serve */
+    padding-right: 5px;   /* Spazio di sicurezza per non far toccare il testo alla barra */
+}
+
+/* Opzionale: Rende la barra di scorrimento invisibile o sottilissima stile Tenebre */
+.sidebar-left ul::-webkit-scrollbar {
+    width: 2px;
+}
+.sidebar-left ul::-webkit-scrollbar-thumb {
+    background: #4a0000;  /* Barra rosso sangue scuro */
+}
+
+a:hover {
+    color: #ff0000;
+    text-shadow: 0 0 5px #ff0000;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer con Fiamme Animate in WebP */
+footer {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('../images/fiamme-footer.webp') repeat-x center/contain;
+    padding: 30px 20px;
+    text-align: center;
+    color: #ff3333;
+    margin-top: 20px;
+}
+
+.quote {
+    font-style: italic;
+    color: #ff6666;
+    margin-bottom: 15px;
+}
+
+/* Orologio Digitale */
+#jdw-clock {
+font-size: 1.2rem;
+color: #ff0000;
+font-weight: bold;
+text-align: center;
+background: #000;
+padding: 5px;
+border: 1px solid #8b0000;
+}
+
+/* Blocchi di codice stile Terminale Inferno */
+.post-content pre {
+    background-color: #000000 !important;
+    border: 1px solid #4a0000;
+    padding: 15px;
+    position: relative;
+    overflow-x: auto; /* Se il comando è troppo lungo, crea una barra interna senza deformare la griglia */
+    max-width: 100%;
+}
+
+.post-content code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00 !important; /* Testo verde terminale */
+}
+
+/* Il Pulsante Copia delle Tenebre */
+.copy-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #050505;
+    border: 1px solid #8b0000;
+    color: #ff3333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
+    padding: 3px 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+    color: #ff0000;
+    border-color: #ff0000;
+    box-shadow: 0 0 6px #ff0000; /* Effetto neon rosso sangue */
+}
+
+/* Impedisce alle immagini di uscire dai bordi del blocco centrale */
+.main-content img, .post-content img {
+    max-width: 90%;      /* L'immagine non supererà MAI la larghezza della colonna centrale */
+    height: auto;         /* Ridimensiona l'altezza in proporzione matematica per evitare deformazioni */
+    display: block;       /* Rimuove spazi vuoti fastidiosi sotto l'immagine */
+    margin: 15px auto;    /* Centra l'immagine orizzontalmente all'interno del post */
+    border: 1px solid #4a0000; /* Opzionale: un sottile bordo rosso sangue stile Inferno */
+    box-shadow: 0 0 8px rgba(139, 0, 0, 0.5); /* Effetto alone scuro di sicurezza */
+}

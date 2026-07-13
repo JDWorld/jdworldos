@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on JÐWØ®LÐ ØS - OFFICIAL PORTAL</title>
+		<link>https://jdworld.github.io/jdworldos/posts/</link>
+		<description>Recent content in Posts on JÐWØ®LÐ ØS - OFFICIAL PORTAL</description>
+		<generator>Hugo</generator>
+		<language>it-it</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 23 Jun 2026 15:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://jdworld.github.io/jdworldos/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>🔥 La Rinascita Atomica di JDWorld OS</title>
+				<link>https://jdworld.github.io/jdworldos/posts/rinascita/</link>
+				<pubDate>Tue, 23 Jun 2026 15:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/posts/rinascita/</guid>
+				<description>&lt;h2 id=&#34;jdworld-os-based-on-arch-linux-kde&#34;&gt;JDWorld OS (Based on Arch Linux KDE)&lt;/h2&gt;&#xA;&lt;p&gt;Questa è la storia di come ho piallato il sistema, bandito l’AUR e creato il formato nativo &lt;strong&gt;.jdw&lt;/strong&gt; per il progetto &lt;em&gt;&lt;strong&gt;JDWorld OS&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;la-rinascita-atomica&#34;&gt;La Rinascita Atomica&lt;/h3&gt;&#xA;&lt;p&gt;Volevo crearmi un OS personalizzato basato su GNU/Linux, ma non sapevo come rimasterizzare una ISO da zero. Poi è accaduto l&amp;rsquo;olocausto dell&amp;rsquo;AUR. Proprio mentre stavo imparando a creare pacchetti con &lt;code&gt;makepkg&lt;/code&gt; da caricare sui repository della community, la cronaca ha cambiato totalmente la mia rotta!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>⚙️ JDWorld OS Package Manager</title>
+				<link>https://jdworld.github.io/jdworldos/posts/jdwos-pm/</link>
+				<pubDate>Thu, 18 Jun 2026 15:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/posts/jdwos-pm/</guid>
+				<description>&lt;h3 id=&#34;-il-core-package-manager-jdw&#34;&gt;⚙️ Il Core Package Manager: .JDW&lt;/h3&gt;&#xA;&lt;p&gt;Il gestore pacchetti &lt;code&gt;jdw&lt;/code&gt; è l&amp;rsquo;infrastruttura nativa e indipendente progettata per la gestione dei pacchetti proprietari &lt;code&gt;.jdw&lt;/code&gt; su JDWorld OS. A differenza dei pacchetti standard, il PM non viene distribuito come binario precompilato, ma richiede un bootstrap iniziale direttamente dai sorgenti per garantire l&amp;rsquo;integrità del sistema.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-la-struttura-del-package-manager-è-ridotta-ai-minimi-termini&#34;&gt;⚒️ La struttura del Package Manager è ridotta ai minimi termini:&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;jdwos-pm/&#xA;├── jdw-install          &amp;lt;-- L&amp;#39;installatore nativo&#xA;├── jdw-remove           &amp;lt;-- Il disinstallatore nativo&#xA;├── jdw-info             &amp;lt;-- Il visualizzatore di schede tecniche&#xA;└── jdw-list             &amp;lt;-- L&amp;#39;elenco dei pacchetti a bordo&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;-guida-ai-comandi-core&#34;&gt;📋 &lt;a href=&#34;../guide/guida-comandi-pm/&#34;&gt;Guida ai Comandi Core&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-changelog&#34;&gt;📝 &lt;a href=&#34;../changelog/jdwos-pm-changelog&#34;&gt;ChangeLog&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-protocollo-di-installazione-pulita-bootstrap&#34;&gt;🛠️ Protocollo di Installazione Pulita (Bootstrap)&lt;/h3&gt;&#xA;&lt;p&gt;Per agganciare &lt;code&gt;jdwos-pm&lt;/code&gt; al tuo terminale locale ed eliminare automaticamente le tracce di compilazione, esegui i seguenti comandi nel terminale di bordo:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

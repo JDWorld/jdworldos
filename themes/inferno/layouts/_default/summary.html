@@ -1,0 +1,22 @@
+<article style="border-left: 3px solid #ff0000; padding-left: 12px; margin-bottom: 20px; background-color: #030303; padding-top: 5px; padding-bottom: 5px;">
+    <!-- 1. Titolo del Post come Link Rosso Neon -->
+    <h4 style="margin: 0 0 5px 0; font-size: 1.1rem;">
+        <a href="{{ .Permalink }}" style="color: #ff0000; text-decoration: none; font-weight: bold;">
+            {{ .Title }}
+        </a>
+    </h4>
+
+    <!-- 2. Data di Rilascio Stile Terminale -->
+    <div style="font-size: 0.75rem; color: #FF4400; font-family: monospace; margin-bottom: 5px;">
+        [TIMESTAMP: {{ .Date.Format "02/01/2006" }}]
+    </div>
+
+    <!-- 3. Descrizione Esplicita Controllata -->
+    <p style="margin: 0; font-size: 0.85rem; color: #a0a0a0; line-height: 1.4;">
+        {{ if .Description }}
+            {{ .Description }}
+        {{ else }}
+            <span style="color: #444; font-style: italic;">Nessuna descrizione inserita nel Front Matter.</span>
+        {{ end }}
+    </p>
+</article>

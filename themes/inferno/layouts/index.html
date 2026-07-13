@@ -1,0 +1,44 @@
+{{ define "main" }}
+    <h2 style="color: #ff0000; border-bottom: 2px solid #8b0000; padding-bottom: 5px;">Console Centrale</h2>
+    <p style="font-style: italic; color: #888;">JDWorld OS — Ultimi dati ricevuti dal terminale di bordo.</p>
+
+    <!-- SEZIONE POST / DIARIO -->
+    <h3 style="color: #ff3333; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px;">
+        🔴 Ultimi Post & Diario di Bordo
+    </h3>
+    <div class="section-block">
+        <!-- Usiamo "posts" con la S per combaciare con la tua cartella content/posts -->
+        {{ $posts := where .Site.RegularPages "Section" "posts" }}
+        {{ range first 3 $posts }}
+            {{ .Render "summary" }}
+        {{ else }}
+            <p style="color: #444; font-style: italic;">Nessun post trovato in content/posts/</p>
+        {{ end }}
+    </div>
+
+    <!-- SEZIONE GUIDE -->
+    <h3 style="color: #ff3333; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px;">
+        💀 Ultime Guide di Sistema
+    </h3>
+    <div class="section-block">
+        {{ $guide := where .Site.RegularPages "Section" "guide" }}
+        {{ range first 3 $guide }}
+            {{ .Render "summary" }}
+        {{ else }}
+            <p style="color: #444; font-style: italic;">Nessuna guida trovata in content/guide/</p>
+        {{ end }}
+    </div>
+
+    <!-- SEZIONE INFO PACCHETTI -->
+    <h3 style="color: #ff3333; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px;">
+        📦 Ultime Info Pacchetti
+    </h3>
+    <div class="section-block">
+        {{ $jdw_pkg := where .Site.RegularPages "Section" "jdw_pkg" }}
+        {{ range first 3 $jdw_pkg }}
+            {{ .Render "summary" }}
+        {{ else }}
+            <p style="color: #444; font-style: italic;">Nessuna guida trovata in content/jdw_pkg/</p>
+        {{ end }}
+    </div>
+{{ end }}

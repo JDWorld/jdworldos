@@ -1,0 +1,26 @@
+<footer>
+    <div class="quote">"Il fuoco di Arch arde dentro JDWorld OS"</div>
+    <!--div id="copyright-box">
+        &copy; <span id="jdw-year"></span> JDWorld. Tutti i diritti riservati.
+    </div-->
+    <div id="counter-box" style="font-size: 1.1rem; color: #ff0000; margin-top: 5px;">
+       <span id="jdw-copyright"></span>
+        <script src="/js/jdworld.js"></script>
+    </div>
+    <script>
+    function copyCode(elementId, btn) {
+    const text = document.getElementById(elementId).innerText.trim();
+    navigator.clipboard.writeText(text).then(() => {
+        btn.innerText = "[ Copiato! ]";
+        btn.style.color = "#00ff00";
+        btn.style.borderColor = "#00ff00";
+        setTimeout(() => {
+            btn.innerText = "[ Copia ]";
+            btn.style.color = "#ff3333";
+            btn.style.borderColor = "#8b0000";
+        }, 1500);
+    });
+}
+</script>
+
+</footer>

@@ -1,0 +1,11 @@
+pkgname=jdwos-ff-stm
+version=1.0.8
+description=Identikit tecnico e istruzioni di installazione per il Terminale Avanzato.
+dependencies=kitty, fastfetch, ttf-nerd-fonts-symbols-common, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=2,8M
+Installed_size=2,8M
+Update_date=10-07-2026
+build_date=20-06-2026

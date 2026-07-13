@@ -1,0 +1,11 @@
+pkgname=jdwos-stm
+version=1.1.0
+description=JDWorld OS System Tray Menù (sviluppato in PyQt6)
+dependencies=pyqt6
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=420K
+Installed_size=420K
+update_date=30-06-2026
+build_date=27-04-2026

@@ -1,0 +1,10 @@
+pkgname=jdwos-media-control
+version=1.0.1
+description=Il Coltello Svizzero Multimediale del JDWorld OS
+dependencies=kitty kdialog ffmpeg yt-dlp
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=1.5 k
+Installed_size=16K
+build_date=04-07-2026

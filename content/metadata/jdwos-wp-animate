@@ -1,0 +1,11 @@
+pkgname=jdwos-wp-animate
+version=1.0.0
+description=Live Wallpapers in formato WEBP
+dependencies=nessuna
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=88M
+Installed_size=88M
+Update_date=10-07-2026
+build_date=27-06-2026

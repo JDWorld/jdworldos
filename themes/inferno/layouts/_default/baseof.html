@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+</head>
+<body>
+    <div class="site-container">
+        {{ partial "header.html" . }}
+        {{ partial "sidebar-left.html" . }}
+
+        <main class="main-content">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        {{ partial "sidebar-right.html" . }}
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+baseURL = 'https://jdworld.github.io/jdworldos/' # O il tuo FQDN NetBird per il privato
+defaultContentLanguage = 'it'
+locale = 'it-it'
+title = "JÐWØ®LÐ ØS - OFFICIAL PORTAL"
+theme = 'inferno'
+publishDir = "docs" # Per il deploy immediato su GitHub Pages
+
+# LE TRE RIGHE SALVAVITA PER GITHUB PAGES:
+canonifyURLs = true
+relativeURLs = true
+uglyURLs = false
+
+[params]
+# Mostra l'autore nei post
+  author = "JDWorld"
+
+  # Descrizione per i motori di ricerca
+  description = "Benvenuto in JÐWØ®LÐ ØS  956 pacchetti, 0 AUR, 100% Individualismo."
+
+[mediaTypes]
+  [mediaTypes."application/x-jdw"]
+    suffixes = ["jdw"]
+
+[outputFormats]
+  [outputFormats.jdw]
+    mediaType = "application/x-jdw"
+    isPlainText = false

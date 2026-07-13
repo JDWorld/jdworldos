@@ -1,0 +1,38 @@
+<aside class="sidebar-left">
+    <h3 style="color: #ff0000; border-bottom: 1px dashed #8b0000; padding-bottom: 5px;">Repository</h3>
+    <ul>
+        {{ range hugo.Data.pacchetti }}
+            <!-- 1. Pulizia totale del nome -->
+            {{ $nomePulito := .nome | strings.TrimSuffix ".info" | strings.TrimSuffix ".jdw" }}
+
+            <!-- 2. Tenta la scansione in content/posts/ (per il PM jdw) -->
+            {{ $cercaInPosts := site.GetPage (printf "posts/%s" $nomePulito) }}
+
+            <!-- 3. Tenta la seconda scansione in content/jdw_pkg/ (per i pacchetti .jdw) -->
+            {{ $cercaInPkg := site.GetPage (printf "jdw_pkg/%s" $nomePulito) }}
+
+            <!-- 4. Sceglie la pagina corretta in base a dove esiste veramente il file .md -->
+            {{ $postCorrispondente := or $cercaInPosts $cercaInPkg }}
+
+            <li style="margin-bottom: 15px; list-style: none; border-left: 2px solid #8b0000; padding-left: 8px;">
+                <!-- Se il file .md esiste in una delle due cartelle, crea il link -->
+                {{ if $postCorrispondente }}
+                    <a href="{{ $postCorrispondente.Permalink }}" style="font-weight: bold; font-size: 1.1rem; color: #ff0000;">
+                        📦 {{ $nomePulito }}
+                    </a>
+                {{ else }}
+                    <span style="font-weight: bold; font-size: 1.1rem; color: #8b0000;">
+                        📦 {{ $nomePulito }}
+                    </span>
+                {{ end }}
+
+                <!-- Metadati del file .info -->
+                <span style="color: #888; font-size: 0.85rem; display: block; margin-top: 4px;">
+                    v{{ .versione }} — {{ .descrizione }}
+                </span>
+            </li>
+        {{ else }}
+            <li style="color: #666; font-style: italic;">Nessun pacchetto nel database locale</li>
+        {{ end }}
+    </ul>
+</aside>

@@ -1,0 +1,22 @@
+<aside class="sidebar-right">
+    <h3 style="color: #ff0000; border-bottom: 1px dashed #8b0000; padding-bottom: 5px;">Navigazione</h3>
+    <ul style="margin-bottom: 25px;">
+        <li><a href="/">Home (Terminal)</a></li>
+        <li><a href="/posts/">Diario e Post</a></li>
+        <li><a href="/guide/">Guide di Sistema</a></li>
+        <li><a href="/jdw_pkg/">Info Pacchetti</a></li>
+    </ul>
+
+    <h3 style="color: #ff0000; border-bottom: 1px dashed #8b0000; padding-bottom: 5px;">Sistema</h3>
+    <div id="jdw-clock">00:00:00</div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const timeStr = now.toTimeString().split(' ')[0];
+            document.getElementById('jdw-clock').textContent = timeStr;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</aside>

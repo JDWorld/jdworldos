@@ -1,0 +1,11 @@
+pkgname=jdwos-briar
+version=1.0.0
+description=Briar, Chat P2P crittografata su rete Tor
+dependencies=nessuna
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=159M
+Installed_size=248M
+Update_date=10-07-2026
+build_date=10-07-2026

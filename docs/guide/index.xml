@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Guides on JÐWØ®LÐ ØS - OFFICIAL PORTAL</title>
+		<link>https://jdworld.github.io/jdworldos/guide/</link>
+		<description>Recent content in Guides on JÐWØ®LÐ ØS - OFFICIAL PORTAL</description>
+		<generator>Hugo</generator>
+		<language>it-it</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 23 Jun 2026 15:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://jdworld.github.io/jdworldos/guide/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>⚙️ Slegare i pacchetti da plasma-meta</title>
+				<link>https://jdworld.github.io/jdworldos/guide/guida-plasma-meta/</link>
+				<pubDate>Tue, 23 Jun 2026 15:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/guide/guida-plasma-meta/</guid>
+				<description>&lt;h2 id=&#34;slegare-i-pacchetti-da-plasma-meta-ed-eliminare-il-bloatware&#34;&gt;Slegare i pacchetti da plasma-meta ed eliminare il BloatWare&lt;/h2&gt;&#xA;&lt;p&gt;Il plasma-meta è un “pacchetto vuoto” che serve solo a forzare l’installazione di una lista rigida di dipendenze e si posiziona in mezzo KDE full (&lt;em&gt;&lt;strong&gt;plasma&lt;/strong&gt;&lt;/em&gt;) e KDE minimal (&lt;em&gt;&lt;strong&gt;plasma-desktop&lt;/strong&gt;&lt;/em&gt;).&lt;br&gt;&#xA;Se rimuovi anche solo un pezzetto (come discover), Arch è costretto a rimuovere l’intero plasma-meta perché la sua “condizione di esistenza” (avere tutti quei pacchetti installati) viene meno.&lt;/p&gt;&#xA;&lt;p&gt;Ecco come risolvere il dilemma e ottenere la lista che cerchi senza rompere il sistema.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>⚙️ Guida ai Comandi Core</title>
+				<link>https://jdworld.github.io/jdworldos/guide/guida-comandi-pm/</link>
+				<pubDate>Fri, 19 Jun 2026 15:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/guide/guida-comandi-pm/</guid>
+				<description>&lt;h4 id=&#34;-installazione&#34;&gt;📦 Installazione&lt;/h4&gt;&#xA;&lt;p&gt;Per installare un pacchetto nel terminale, digita:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo jdw-install nome-pacchetto.jdw&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;jdw-install&lt;/code&gt; (L’Installatore Ibrido):&lt;/strong&gt; Se rileva il pacchetto in locale procede all&amp;rsquo;istante. In caso contrario, vola su GitHub, lo scarica direttamente in RAM (&lt;code&gt;/tmp/&lt;/code&gt;), evade le dipendenze sfruttando i repository ufficiali di Arch, lo estrae, lo configura e pulisce la memoria temporanea.&lt;/p&gt;&#xA;&lt;h4 id=&#34;-disinstallazione&#34;&gt;🗑️ Disinstallazione&lt;/h4&gt;&#xA;&lt;p&gt;Per rimuovere un pacchetto, digita:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo jdw-remove nome-pacchetto&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;jdw-remove&lt;/code&gt; (Il Disinstallatore Universale):&lt;/strong&gt; Sfrutta gli script &lt;code&gt;remove.sh&lt;/code&gt; atomici dedicati a ogni pacchetto. Elimina i file di sistema, pulisce le configurazioni nella cartella Home dell’utente reale (&lt;code&gt;${SUDO_USER}&lt;/code&gt;) e cancella le tracce dal database locale, lasciando il sistema immacolato.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

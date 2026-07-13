@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Jdw_pkgs on JÐWØ®LÐ ØS - OFFICIAL PORTAL</title>
+		<link>https://jdworld.github.io/jdworldos/jdw_pkg/</link>
+		<description>Recent content in Jdw_pkgs on JÐWØ®LÐ ØS - OFFICIAL PORTAL</description>
+		<generator>Hugo</generator>
+		<language>it-it</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Jul 2026 08:00:00 +0200</lastBuildDate>
+		
+			<atom:link href="https://jdworld.github.io/jdworldos/jdw_pkg/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>jdwos-briar</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-briar/</link>
+				<pubDate>Fri, 10 Jul 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-briar/</guid>
+				<description>&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: jdwos-briar.jdw&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (x86_64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 159 MB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-istruzioni-di-installazione-rapida&#34;&gt;🛠️ Istruzioni di Installazione rapida&lt;/h3&gt;&#xA;&lt;p&gt;Per distribuire Briar sulla console locale di JDWorld OS ed agganciare la rete protetta di bordo, esegui:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; margin-bottom: 15px;&#34;&gt;&#xA;    &lt;pre&gt;&lt;code id=&#34;code-0&#34;&gt;jdw-install jdwos-briar.jdw&lt;/code&gt;&lt;/pre&gt;&#xA;    &lt;button class=&#34;copy-btn&#34; onclick=&#34;copyCode(&#39;code-0&#39;, this)&#34;&gt;[ Copia ]&lt;/button&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Se hai la necessità di rimuovere il software mantenendo puliti i registri di sistema:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-obs-teleport</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-obs-teleport/</link>
+				<pubDate>Fri, 10 Jul 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-obs-teleport/</guid>
+				<description>&lt;h3 id=&#34;obs-studio-plugins-obs-teleport-v07&#34;&gt;OBS-Studio Plugins: OBS-Teleport v0.7&lt;/h3&gt;&#xA;&lt;p&gt;OBS Teleport è un popolare plugin gratuito per OBS Studio che permette di trasmettere audio e video in tempo reale tra più computer tramite la rete locale (LAN), configurando un setup a doppio PC senza bisogno di costose schede di acquisizione.&#xA;Il plugin agisce in modo simile alla tecnologia NDI, ma utilizza solitamente compressione video/immagini su standard aperti, rendendolo più leggero e meno soggetto a problemi di latenza o sfasamento&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-smartvideo</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-smartvideo/</link>
+				<pubDate>Fri, 10 Jul 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-smartvideo/</guid>
+				<description>&lt;h3 id=&#34;smart-video-wallpaper-reborn&#34;&gt;Smart Video Wallpaper Reborn&lt;/h3&gt;&#xA;&lt;p&gt;Plugins di KDE per utilizzare Video come Sfondo del Desktop&lt;/p&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: jdwos-smartvideo.jdw&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (x86_64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 56 KB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;mpv&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;gst-libav&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;gst-plugins-good&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-istruzioni-di-installazione-rapida&#34;&gt;🛠️ Istruzioni di Installazione rapida&lt;/h3&gt;&#xA;&lt;p&gt;Grazie al nuovo &lt;strong&gt;&lt;a href=&#34;../posts/jdwos-pm&#34;&gt;JDWorld OS Package Manager Universale&lt;/a&gt;&lt;/strong&gt;, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita::&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-wp-horror</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wp-horror/</link>
+				<pubDate>Fri, 10 Jul 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wp-horror/</guid>
+				<description>&lt;h3 id=&#34;jdworld-os-media-control&#34;&gt;JDWorld OS Media Control&lt;/h3&gt;&#xA;&lt;p&gt;Galleria Wallpaper Horror di JDWorld OS&lt;/p&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: jdwos-wp-horror.jdw&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (x86_64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 1.5 MB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;feh&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;kitty&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-istruzioni-di-installazione-rapida&#34;&gt;🛠️ Istruzioni di Installazione rapida&lt;/h3&gt;&#xA;&lt;p&gt;Grazie al nuovo &lt;strong&gt;&lt;a href=&#34;../posts/jdwos-pm&#34;&gt;JDWorld OS Package Manager Universale&lt;/a&gt;&lt;/strong&gt;, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-media-control</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-media-control/</link>
+				<pubDate>Sat, 04 Jul 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-media-control/</guid>
+				<description>&lt;h3 id=&#34;jdworld-os-media-control&#34;&gt;JDWorld OS Media Control&lt;/h3&gt;&#xA;&lt;p&gt;Il Coltello Svizzero Multimediale del JDWorld OS.&#xA;Il &lt;strong&gt;JDWorld OS Media Control&lt;/strong&gt; è una &lt;strong&gt;TUI&lt;/strong&gt; (&lt;em&gt;&lt;strong&gt;Terminal User Interface&lt;/strong&gt;&lt;/em&gt;) che utilizza &lt;code&gt;ffmpeg&lt;/code&gt; e &lt;code&gt;yt-dlp&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: jdwos-media-control.jdw&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (x86_64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 12 KB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-05&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;kitty&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;kdialog&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;yt-dlp&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ffmpeg&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-istruzioni-di-installazione-rapida&#34;&gt;🛠️ Istruzioni di Installazione rapida&lt;/h3&gt;&#xA;&lt;p&gt;Grazie al nuovo &lt;strong&gt;&lt;a href=&#34;../posts/jdwos-pm&#34;&gt;JDWorld OS Package Manager Universale&lt;/a&gt;&lt;/strong&gt;, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-wp-animate</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wp-animate/</link>
+				<pubDate>Sat, 27 Jun 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wp-animate/</guid>
+				<description>&lt;h3 id=&#34;jdworld-os-media-control&#34;&gt;JDWorld OS Media Control&lt;/h3&gt;&#xA;&lt;p&gt;Live Wallpapers in formato WEBP, non è necessario il plugins Smart Video Wallpaper Reborn&lt;/p&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: jdwos-wp-animate.jdw&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (x86_64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 87 MB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;feh&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;kitty&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-istruzioni-di-installazione-rapida&#34;&gt;🛠️ Istruzioni di Installazione rapida&lt;/h3&gt;&#xA;&lt;p&gt;Grazie al nuovo &lt;strong&gt;&lt;a href=&#34;../posts/jdwos-pm&#34;&gt;JDWorld OS Package Manager Universale&lt;/a&gt;&lt;/strong&gt;, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-ff-stm</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-ff-stm/</link>
+				<pubDate>Fri, 19 Jun 2026 18:10:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-ff-stm/</guid>
+				<description>&lt;h1 id=&#34;terminale-avanzato-e-profili-fetch-custom&#34;&gt;Terminale Avanzato e Profili Fetch Custom&lt;/h1&gt;&#xA;&lt;p&gt;Questo pacchetto integra l&amp;rsquo;emulatore di terminale &lt;strong&gt;Kitty&lt;/strong&gt;, i &lt;strong&gt;Nerd Fonts&lt;/strong&gt; e configura 4 profili grafici intercambiabili di &lt;strong&gt;Fastfetch&lt;/strong&gt; con citazioni dinamiche ad ogni avvio.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: JDWorld OS Fastfetch Custom jdwos-ff-stm&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (.jdw)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 12.4 KB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build Date&lt;/strong&gt;: 2026-06-20&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>jdwos-stm</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-stm/</link>
+				<pubDate>Fri, 19 Jun 2026 17:36:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-stm/</guid>
+				<description>&lt;h1 id=&#34;jdworld-os-system-tray-menù&#34;&gt;JDWorld OS System Tray Menù&lt;/h1&gt;&#xA;&lt;p&gt;Ispirandomi a come gestisco Windows tramite software open-source e PortableApps, ho creato un menu dove poter inserire a mio piacimento i collegamenti delle applicazioni che uso di più.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: JDWorld OS System Tray Menù (jdwos-stm&#xA;.jdw)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (.jdw)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 408 KB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Build Date&lt;/strong&gt;: 2026-06-19&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-00&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,55 @@
+[
+  {
+    "nome": "jdwos-briar",
+    "versione": "1.0.0",
+    "descrizione": "Briar, Chat P2P crittografata su rete Tor"
+  }
+,
+  {
+    "nome": "jdwos-ff-stm",
+    "versione": "1.0.8",
+    "descrizione": "Identikit tecnico e istruzioni di installazione per il Terminale Avanzato."
+  }
+,
+  {
+    "nome": "jdwos-media-control",
+    "versione": "1.0.1",
+    "descrizione": "Il Coltello Svizzero Multimediale del JDWorld OS"
+  }
+,
+  {
+    "nome": "jdwos-obs-teleport",
+    "versione": "1.0.0",
+    "descrizione": "OBS Studio Plugins Teleport v0.7"
+  }
+,
+  {
+    "nome": "jdwos-pm",
+    "versione": "1.0.3",
+    "descrizione": "JDWorld OS Packages Manager"
+  }
+,
+  {
+    "nome": "jdwos-smartvideo",
+    "versione": "1.0.0",
+    "descrizione": "Smart Video Wallpaper Reborn di Luis Bocanegra v2.13.0-1"
+  }
+,
+  {
+    "nome": "jdwos-stm",
+    "versione": "1.1.0",
+    "descrizione": "JDWorld OS System Tray Menù (sviluppato in PyQt6)"
+  }
+,
+  {
+    "nome": "jdwos-wp-animate",
+    "versione": "1.0.0",
+    "descrizione": "Live Wallpapers in formato WEBP"
+  }
+,
+  {
+    "nome": "jdwos-wp-horror",
+    "versione": "1.0.0",
+    "descrizione": "Galleria Wallpaper Horror per JDWorld OS"
+  }
+]
