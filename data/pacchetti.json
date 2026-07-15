@@ -37,7 +37,7 @@
 ,
   {
     "nome": "jdwos-stm",
-    "versione": "1.1.0",
+    "versione": "1.1.2",
     "descrizione": "JDWorld OS System Tray Menù (sviluppato in PyQt6)"
   }
 ,
