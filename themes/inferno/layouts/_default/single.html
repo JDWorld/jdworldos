@@ -2,7 +2,7 @@
     <article class="single-post">
         <h2 style="color: #ff0000; border-bottom: 1px solid #4a0000; padding-bottom: 5px;">{{ .Title }}</h2>
         <div style="font-size: 0.8rem; color: #FF4400; margin-bottom: 20px;">
-            TIMESTAMP: {{ .Date.Format "02/01/2006" }} | SEZIONE: {{ .Section | upper }}
+            [BUILD-DATE: {{ .Date.Format "02/01/2006" }} | SEZIONE: {{ .Section | upper }}
         </div>
         <div class="post-content" style="line-height: 1.6;">
             {{ .Content }}
