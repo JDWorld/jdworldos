@@ -44,7 +44,7 @@ Per la rimozione chirurgica:
 
 ### 💾 Download Diretto del Binario
 
-[Scarica il pacchetto binario {{< title >}}.jdw](https://github.com/JDWorld/jdwos-repo/releases/download/v1.0.0/{{< title >}}.jdw)
+[Scarica il pacchetto binario {{< title >}}.jdw](https://github.com/JDWorld/jdwos-repo/releases/download/latest/{{< title >}}.jdw)
 
 ---
 

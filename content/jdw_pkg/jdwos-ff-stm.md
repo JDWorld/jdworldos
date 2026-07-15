@@ -18,7 +18,7 @@ Questo pacchetto integra l'emulatore di terminale **Kitty**, i **Nerd Fonts** e 
 *   **Maintainers**: JDWorld
 *   **Package Size**: 12.4 KB
 *   **Build Date**: 2026-06-20 
-*   **Update Date**: 2026-07-10
+*   **Update Date**: 2026-07-15
 
 ---
 
@@ -46,7 +46,7 @@ Per la rimozione chirurgica:
 
 ### 💾 Download Diretto del Binario
 
-[Scarica il pacchetto binario {{< title >}}.jdw](https://github.com/JDWorld/jdwos-repo/releases/download/v1.0.0/{{< title >}}.jdw)
+[Scarica il pacchetto binario {{< title >}}.jdw](https://github.com/JDWorld/jdwos-repo/releases/download/latest/{{< title >}}.jdw)
 
 
 ---
