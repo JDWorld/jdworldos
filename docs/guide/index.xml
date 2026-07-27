@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Tue, 23 Jun 2026 15:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Mon, 27 Jul 2026 18:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://jdworld.github.io/jdworldos/guide/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>🔥 Creare JDWorld OS</title>
+				<link>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</link>
+				<pubDate>Mon, 27 Jul 2026 18:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</guid>
+				<description>&lt;h2 id=&#34;jdworld-os-based-on-arch-linux-kde&#34;&gt;JDWorld OS (Based on Arch Linux KDE)&lt;/h2&gt;&#xA;&lt;p&gt;Questa è la storia di come è nato il &lt;em&gt;&lt;strong&gt;JDWorld OS&lt;/strong&gt;&lt;/em&gt;. Anche se non so ancora come creare l&amp;rsquo;ISO per la distribuzione. Archiso dite? un&amp;rsquo;incubo, Penguins-Eggs è anche peggio di archiso, percui per ora lascio perdere la creazione dell&amp;rsquo;iso, ma se volete potete replicare quello che sto facendo per il mio OS GNU/Linux Custom basato su Arch Linux!&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-installare-arch-linux-con-il-gruppo-dambiente-plasma-meta&#34;&gt;1. Installare Arch Linux con il gruppo d&amp;rsquo;ambiente: &lt;em&gt;&lt;strong&gt;plasma-meta&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Come districarsi in ArchInstall [27-07-2026]&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>⚙️ Slegare i pacchetti da plasma-meta</title>
 				<link>https://jdworld.github.io/jdworldos/guide/guida-plasma-meta/</link>
@@ -26,13 +33,6 @@
 				<pubDate>Fri, 19 Jun 2026 15:00:00 +0200</pubDate>
 				<guid>https://jdworld.github.io/jdworldos/guide/guida-comandi-pm/</guid>
 				<description>&lt;h4 id=&#34;-installazione&#34;&gt;📦 Installazione&lt;/h4&gt;&#xA;&lt;p&gt;Per installare un pacchetto nel terminale, digita:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo jdw-install nome-pacchetto.jdw&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;jdw-install&lt;/code&gt; (L’Installatore Ibrido):&lt;/strong&gt; Se rileva il pacchetto in locale procede all&amp;rsquo;istante. In caso contrario, vola su GitHub, lo scarica direttamente in RAM (&lt;code&gt;/tmp/&lt;/code&gt;), evade le dipendenze sfruttando i repository ufficiali di Arch, lo estrae, lo configura e pulisce la memoria temporanea.&lt;/p&gt;&#xA;&lt;h4 id=&#34;-disinstallazione&#34;&gt;🗑️ Disinstallazione&lt;/h4&gt;&#xA;&lt;p&gt;Per rimuovere un pacchetto, digita:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo jdw-remove nome-pacchetto&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;jdw-remove&lt;/code&gt; (Il Disinstallatore Universale):&lt;/strong&gt; Sfrutta gli script &lt;code&gt;remove.sh&lt;/code&gt; atomici dedicati a ogni pacchetto. Elimina i file di sistema, pulisce le configurazioni nella cartella Home dell’utente reale (&lt;code&gt;${SUDO_USER}&lt;/code&gt;) e cancella le tracce dal database locale, lasciando il sistema immacolato.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>🔥 Creare JDWorld OS</title>
-				<link>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</guid>
-				<description>&lt;h2 id=&#34;jdworld-os-based-on-arch-linux-kde&#34;&gt;JDWorld OS (Based on Arch Linux KDE)&lt;/h2&gt;&#xA;&lt;p&gt;Questa è la storia di come è nato il &lt;em&gt;&lt;strong&gt;JDWorld OS&lt;/strong&gt;&lt;/em&gt;. Anche se non so ancora come creare l&amp;rsquo;ISO per la distribuzione. Archiso dite? un&amp;rsquo;incubo, Penguins-Eggs è anche peggio di archiso, percui per ora lascio perdere la creazione dell&amp;rsquo;iso, ma se volete potete replicare quello che sto facendo per il mio OS GNU/Linux Custom basato su Arch Linux!&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-installare-arch-linux-con-il-gruppo-dambiente-plasma-meta&#34;&gt;1. Installare Arch Linux con il gruppo d&amp;rsquo;ambiente: &lt;em&gt;&lt;strong&gt;plasma-meta&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Come districarsi in ArchInstall [27-07-2026]&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
