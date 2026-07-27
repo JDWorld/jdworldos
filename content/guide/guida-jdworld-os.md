@@ -1,6 +1,6 @@
 ---
 title: "🔥 Creare JDWorld OS"
-date: 2026-7-27T15:00:00+02:00
+date: 2026-07-27T18:00:00+02:00
 description: "Come ho creato il JDWorld OS"
 draft: false
 ---
