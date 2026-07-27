@@ -12,7 +12,7 @@ Questo pacchetto nativo per il JDWorld OS contiene sia il QuickEMU che il QuickG
 ### 📦 Scheda Tecnica del Pacchetto
 
 *   **Name**: JDWorld OS QuickEMU + QuickGUI ({{< title >}}.jdw)
-*   **Architecture**: Nativa Indipendente (.jdw)
+*   **Architecture**: Nativa Indipendente (x86_64)
 *   **Distro**: Arch Linux
 *   **License(s)**: Simplified BSD License
 *   **Maintainers**: JDWorld
@@ -22,7 +22,9 @@ Questo pacchetto nativo per il JDWorld OS contiene sia il QuickEMU che il QuickG
 ---
 
 ### 🧰 Dipendenze Richieste
+
 Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:
+
 * `qemu-full`
 * `coreutils`
 * `grep`

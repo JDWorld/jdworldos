@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jdwos-briar | JÐWØ®LÐ ØS - OFFICIAL PORTAL</title>
+    <title>jdwos-qge | JÐWØ®LÐ ØS - OFFICIAL PORTAL</title>
     <link rel="stylesheet" href="https://jdworld.github.io/jdworldos/css/style.css">
 </head>
 <body>
@@ -284,45 +284,68 @@
         <main class="main-content">
             
     <article class="single-post">
-        <h2 style="color: #ff0000; border-bottom: 1px solid #4a0000; padding-bottom: 5px;">jdwos-briar</h2>
+        <h2 style="color: #ff0000; border-bottom: 1px solid #4a0000; padding-bottom: 5px;">jdwos-qge</h2>
         <div style="font-size: 0.8rem; color: #FF4400; margin-bottom: 20px;">
-            [BUILD-DATE: 10/07/2026 | SEZIONE: JDW_PKG
+            [BUILD-DATE: 27/07/2026 | SEZIONE: JDW_PKG
         </div>
         <div class="post-content" style="line-height: 1.6;">
-            <h3 id="-scheda-tecnica-del-pacchetto">📦 Scheda Tecnica del Pacchetto</h3>
+            <h1 id="quickemu-e-quick-per-il-jdworld-os">QuickEMU e Quick per il JDWorld OS</h1>
+<p>Questo pacchetto nativo per il JDWorld OS contiene sia il QuickEMU che il QuickGUI.</p>
+<h3 id="-scheda-tecnica-del-pacchetto">📦 Scheda Tecnica del Pacchetto</h3>
 <ul>
-<li><strong>Name</strong>: jdwos-briar.jdw</li>
+<li><strong>Name</strong>: JDWorld OS QuickEMU + QuickGUI (jdwos-qge
+.jdw)</li>
 <li><strong>Architecture</strong>: Nativa Indipendente (x86_64)</li>
 <li><strong>Distro</strong>: Arch Linux</li>
 <li><strong>License(s)</strong>: Simplified BSD License</li>
 <li><strong>Maintainers</strong>: JDWorld</li>
-<li><strong>Package Size</strong>: 159 MB</li>
-<li><strong>Update Date</strong>: 2026-07-10</li>
+<li><strong>Package Size</strong>: 25 MB</li>
+<li><strong>Update Date</strong>: 2026-07-27</li>
+</ul>
+<hr>
+<h3 id="-dipendenze-richieste">🧰 Dipendenze Richieste</h3>
+<p>Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:</p>
+<ul>
+<li><code>qemu-full</code></li>
+<li><code>coreutils</code></li>
+<li><code>grep</code></li>
+<li><code>jq</code></li>
+<li><code>procps</code></li>
+<li><code>python3</code></li>
+<li><code>cdrtools</code></li>
+<li><code>usbutils</code></li>
+<li><code>util-linux</code></li>
+<li><code>sed</code></li>
+<li><code>spice-gtk</code></li>
+<li><code>swtpm</code></li>
+<li><code>wget</code></li>
+<li><code>xorg-xrandr</code></li>
+<li><code>zsync</code></li>
+<li><code>edk2-ovmf</code></li>
+<li><code>xdg-user-dirs</code></li>
+<li><code>socat</code></li>
 </ul>
 <hr>
 <h3 id="-istruzioni-di-installazione-rapida">🛠️ Istruzioni di Installazione rapida</h3>
-<p>Per distribuire Briar sulla console locale di JDWorld OS ed agganciare la rete protetta di bordo, esegui:</p>
+<p>Grazie al nuovo <strong><a href="../../posts/jdwos-pm">JDWorld OS Package Manager Universale</a></strong>, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:</p>
 <div style="position: relative; margin-bottom: 15px;">
-    <pre><code id="code-0">jdw-install jdwos-briar.jdw</code></pre>
-    <button class="copy-btn" onclick="copyCode('code-0', this)">[ Copia ]</button>
-</div>
-
-<p>Se hai la necessità di rimuovere il software mantenendo puliti i registri di sistema:</p>
-<div style="position: relative; margin-bottom: 15px;">
-    <pre><code id="code-1">jdw-remove jdwos-briar</code></pre>
+    <pre><code id="code-1">jdw-install jdwos-qge.jdw</code></pre>
     <button class="copy-btn" onclick="copyCode('code-1', this)">[ Copia ]</button>
 </div>
 
-<hr>
-<h3 id="-protocollo-operativo-briar-di-bordo">📡 Protocollo Operativo Briar di Bordo</h3>
-<p>Questo pacchetto estrae l&rsquo;ambiente runtime isolato ed esegue il wrapper nativo per agganciare i nodi P2P tramite Tor senza configurazioni manuali. Utilizzare esclusivamente via rete Briar di bordo per i report di navigazione e il monitoraggio dei terminali remoti.</p>
+<p>Per la rimozione chirurgica:</p>
+<div style="position: relative; margin-bottom: 15px;">
+    <pre><code id="code-2">jdw-remove jdwos-qge</code></pre>
+    <button class="copy-btn" onclick="copyCode('code-2', this)">[ Copia ]</button>
+</div>
+
 <hr>
 <h3 id="-download-diretto-del-binario">💾 Download Diretto del Binario</h3>
-<p><a href="https://github.com/JDWorld/jdwos-repo/releases/download/latest/jdwos-briar
-.jdw">Scarica il pacchetto binario jdwos-briar
+<p><a href="https://github.com/JDWorld/jdwos-repo/releases/download/latest/jdwos-qge
+.jdw">Scarica il pacchetto binario jdwos-qge
 .jdw</a></p>
 <hr>
-<p><em>JDWorld OS Console Terminal - Registro Comunicazioni del 10 Luglio 2026</em></p>
+<p><em>JDWorld OS Console Terminal - Registro di bordo del 27 Luglio 2026</em></p>
 
         </div>
     </article>

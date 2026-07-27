@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 10 Jul 2026 08:00:00 +0200</lastBuildDate>
+			<lastBuildDate>Mon, 27 Jul 2026 08:00:00 +0200</lastBuildDate>
 		
 			<atom:link href="https://jdworld.github.io/jdworldos/jdw_pkg/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>jdwos-qge</title>
+				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-qge/</link>
+				<pubDate>Mon, 27 Jul 2026 08:00:00 +0200</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-qge/</guid>
+				<description>&lt;h1 id=&#34;quickemu-e-quick-per-il-jdworld-os&#34;&gt;QuickEMU e Quick per il JDWorld OS&lt;/h1&gt;&#xA;&lt;p&gt;Questo pacchetto nativo per il JDWorld OS contiene sia il QuickEMU che il QuickGUI.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-scheda-tecnica-del-pacchetto&#34;&gt;📦 Scheda Tecnica del Pacchetto&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: JDWorld OS QuickEMU + QuickGUI (jdwos-qge&#xA;.jdw)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: Nativa Indipendente (x86_64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Distro&lt;/strong&gt;: Arch Linux&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;License(s)&lt;/strong&gt;: Simplified BSD License&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintainers&lt;/strong&gt;: JDWorld&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package Size&lt;/strong&gt;: 25 MB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Update Date&lt;/strong&gt;: 2026-07-27&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-dipendenze-richieste&#34;&gt;🧰 Dipendenze Richieste&lt;/h3&gt;&#xA;&lt;p&gt;Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;qemu-full&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;coreutils&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;grep&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;jq&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;procps&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;python3&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;cdrtools&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;usbutils&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;util-linux&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sed&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;spice-gtk&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;swtpm&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;wget&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;xorg-xrandr&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;zsync&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;edk2-ovmf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;xdg-user-dirs&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;socat&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-istruzioni-di-installazione-rapida&#34;&gt;🛠️ Istruzioni di Installazione rapida&lt;/h3&gt;&#xA;&lt;p&gt;Grazie al nuovo &lt;strong&gt;&lt;a href=&#34;../posts/jdwos-pm&#34;&gt;JDWorld OS Package Manager Universale&lt;/a&gt;&lt;/strong&gt;, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>jdwos-briar</title>
 				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-briar/</link>
