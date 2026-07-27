@@ -1,5 +1,5 @@
 pkgname=jdwos-ff-stm
-version=1.0.8
+version=1.1.0
 description=Identikit tecnico e istruzioni di installazione per il Terminale Avanzato.
 dependencies=kitty, fastfetch, ttf-nerd-fonts-symbols-common, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols
 architecture=x86_64

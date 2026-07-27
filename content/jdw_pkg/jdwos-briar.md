@@ -1,7 +1,7 @@
 ---
 title: "jdwos-briar"
 date: 2026-07-10T08:00:00+02:00
-description: "Sistema di messaggistica P2P crittografato decentralizzato operante su rete Tor nativa. Configurato per le comunicazioni d'emergenza dell'equipaggio."
+description: "Sistema di messaggistica P2P crittografato decentralizzato operante su rete Tor nativa."
 draft: false
 ---
 

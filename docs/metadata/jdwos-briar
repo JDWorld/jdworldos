@@ -1,6 +1,6 @@
 pkgname=jdwos-briar
 version=1.0.0
-description=Briar, Chat P2P crittografata su rete Tor
+description=Briar, Chat P2P crittografata su rete Tor nativa.
 dependencies=nessuna
 architecture=x86_64
 license=Simplified BSD License

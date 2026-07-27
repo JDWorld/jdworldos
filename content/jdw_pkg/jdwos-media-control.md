@@ -55,5 +55,7 @@ Se hai la necessità di rimuovere il software mantenendo puliti i registri di si
 
 ---
 
-*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ ØS.*
+*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ ØS*
+
+
 _JDWorld OS Console Terminal - Registro Comunicazioni del 5 Luglio 2026_
