@@ -111,5 +111,12 @@
 				<guid>https://jdworld.github.io/jdworldos/changelog/jdwos-pm-changelog/</guid>
 				<description>&lt;p&gt;Versione: 1.0.4&#xA;Aggiunta configurazione kitty per il wrapper&lt;/p&gt;&#xA;&lt;p&gt;Versione: 1.0.3&#xA;Fix: Bug minori&lt;/p&gt;&#xA;&lt;p&gt;Versione: 1.0.2&lt;br&gt;&#xA;È stato aggiunto:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Il remove.sh&#x9;&amp;lt;&amp;ndash; Elimina file di sistema, configurazioni nella Home dell’utente reale (${SUDO_USER}) e tracce dal database, lasciando il sistema immacolato&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Versione: 1.0.1&lt;br&gt;&#xA;Sono stati aggiunti:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Il setup.sh&#x9;&amp;lt;&amp;ndash; Per avviare l&amp;rsquo;installazione del PM&lt;/li&gt;&#xA;&lt;li&gt;L&amp;rsquo;install.sh&#x9;&amp;lt;&amp;ndash; Gestisce permessi e si occupa della copia&lt;/li&gt;&#xA;&lt;li&gt;Il jdw-package.info&#x9;&amp;lt;&amp;ndash;Visualizza la scheda tecnica del Package Manager&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;E modificato il binario: &lt;strong&gt;&lt;strong&gt;jdw-info&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>🔥 Creare JDWorld OS</title>
+				<link>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</guid>
+				<description>&lt;h2 id=&#34;jdworld-os-based-on-arch-linux-kde&#34;&gt;JDWorld OS (Based on Arch Linux KDE)&lt;/h2&gt;&#xA;&lt;p&gt;Questa è la storia di come è nato il &lt;em&gt;&lt;strong&gt;JDWorld OS&lt;/strong&gt;&lt;/em&gt;. Anche se non so ancora come creare l&amp;rsquo;ISO per la distribuzione. Archiso dite? un&amp;rsquo;incubo, Penguins-Eggs è anche peggio di archiso, percui per ora lascio perdere la creazione dell&amp;rsquo;iso, ma se volete potete replicare quello che sto facendo per il mio OS GNU/Linux Custom basato su Arch Linux!&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-installare-arch-linux-con-il-gruppo-dambiente-plasma-meta&#34;&gt;1. Installare Arch Linux con il gruppo d&amp;rsquo;ambiente: &lt;em&gt;&lt;strong&gt;plasma-meta&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Come districarsi in ArchInstall [27-07-2026]&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>
