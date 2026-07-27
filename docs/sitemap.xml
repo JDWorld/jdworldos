@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/</loc>
     <lastmod>2026-07-10T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-briar/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-briar/</loc>
     <lastmod>2026-07-10T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-obs-teleport/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-obs-teleport/</loc>
     <lastmod>2026-07-10T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-smartvideo/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-smartvideo/</loc>
     <lastmod>2026-07-10T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-wp-horror/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wp-horror/</loc>
     <lastmod>2026-07-10T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-media-control/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-media-control/</loc>
     <lastmod>2026-07-04T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/</loc>
+    <loc>https://jdworld.github.io/jdworldos/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-wp-animate/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wp-animate/</loc>
     <lastmod>2026-06-27T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/guide/guida-plasma-meta/</loc>
+    <loc>https://jdworld.github.io/jdworldos/guide/guida-plasma-meta/</loc>
     <lastmod>2026-06-23T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/posts/rinascita/</loc>
+    <loc>https://jdworld.github.io/jdworldos/posts/rinascita/</loc>
     <lastmod>2026-06-23T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/guide/</loc>
+    <loc>https://jdworld.github.io/jdworldos/guide/</loc>
     <lastmod>2026-06-23T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/posts/</loc>
+    <loc>https://jdworld.github.io/jdworldos/posts/</loc>
     <lastmod>2026-06-23T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-ff-stm/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-ff-stm/</loc>
     <lastmod>2026-06-19T18:10:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/guide/guida-comandi-pm/</loc>
+    <loc>https://jdworld.github.io/jdworldos/guide/guida-comandi-pm/</loc>
     <lastmod>2026-06-19T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/posts/jdwos-pm/</loc>
+    <loc>https://jdworld.github.io/jdworldos/posts/jdwos-pm/</loc>
     <lastmod>2026-06-18T15:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/jdw_pkg/jdwos-stm/</loc>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-stm/</loc>
     <lastmod>2026-04-27T17:36:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/changelog/jdwos-pm-changelog/</loc>
+    <loc>https://jdworld.github.io/jdworldos/changelog/jdwos-pm-changelog/</loc>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/categories/</loc>
+    <loc>https://jdworld.github.io/jdworldos/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/changelog/</loc>
+    <loc>https://jdworld.github.io/jdworldos/changelog/</loc>
   </url><url>
-    <loc>http://localhost:1313/jdworldos/tags/</loc>
+    <loc>https://jdworld.github.io/jdworldos/tags/</loc>
   </url>
 </urlset>
