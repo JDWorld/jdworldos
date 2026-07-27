@@ -1,6 +1,6 @@
 ---
 title: "jdwos-qge"
-date: 2026-07-27T10:10:00+02:00
+date: 2026-07-27T18:10:00+02:00
 description: "QuickEMU e QuickGUI per il JDWorld OS."
 draft: false
 ---
