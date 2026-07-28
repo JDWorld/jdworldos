@@ -12,7 +12,7 @@ Questa è la storia di come è nato il ***JDWorld OS***. Anche se non so ancora 
 ### 1. Installare Arch Linux con il gruppo d'ambiente: ***plasma-meta***
 Come districarsi in ArchInstall [27-07-2026]
 
-{{< youtube jFfE5Yv_QpU >}}
+{{< youtube 8hP44vJ9sD4 >}}
 
 
 ---
