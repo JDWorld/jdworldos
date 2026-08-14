@@ -1,7 +1,7 @@
 ---
-title: "jdwos-ic666"
+title: "jdwos-wp-inferno"
 date: 2026-08-13T10:10:00+02:00
-description: "Inferno Core"
+description: "Inferno Template"
 draft: false
 ---
 
