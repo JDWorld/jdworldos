@@ -1,11 +1,11 @@
 ---
 title: "jdwos-obs-teleport"
 date: 2026-07-10T08:00:00+02:00
-description: "OBS-Studio Plugins: OBS-Teleport v0.7"
+description: "OBS-Studio Plugins: OBS-Teleport v0.7.7"
 draft: false
 ---
 
-### OBS-Studio Plugins: OBS-Teleport v0.7
+### OBS-Studio Plugins: OBS-Teleport v0.7.7
 
 OBS Teleport è un popolare plugin gratuito per OBS Studio che permette di trasmettere audio e video in tempo reale tra più computer tramite la rete locale (LAN), configurando un setup a doppio PC senza bisogno di costose schede di acquisizione. 
 Il plugin agisce in modo simile alla tecnologia NDI, ma utilizza solitamente compressione video/immagini su standard aperti, rendendolo più leggero e meno soggetto a problemi di latenza o sfasamento

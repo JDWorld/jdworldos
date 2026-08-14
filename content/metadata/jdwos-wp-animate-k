@@ -1,0 +1,11 @@
+pkgname=jdwos-wp-animate-k
+pkgver=1.0.1
+pkgdesc=Live Wallpapers in formato WEBP, non è necessario il plugins Smart Video Wallpaper Reborn
+dependencies=feh kitty mpv
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=88M
+installed_size=88M
+build_date=27-06-2026
+update_date=13-08-2026

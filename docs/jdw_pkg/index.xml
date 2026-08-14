@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Jdw_pkgs on JÐWØ®LÐ ØS - OFFICIAL PORTAL</title>
+		<title>Jdw_pkgs on JÐWØ®LÐ ØS OFFICIAL</title>
 		<link>https://jdworld.github.io/jdworldos/jdw_pkg/</link>
-		<description>Recent content in Jdw_pkgs on JÐWØ®LÐ ØS - OFFICIAL PORTAL</description>
+		<description>Recent content in Jdw_pkgs on JÐWØ®LÐ ØS OFFICIAL</description>
 		<generator>Hugo</generator>
 		<language>it-it</language>
 		
@@ -32,7 +32,7 @@
 				<link>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-obs-teleport/</link>
 				<pubDate>Fri, 10 Jul 2026 08:00:00 +0200</pubDate>
 				<guid>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-obs-teleport/</guid>
-				<description>&lt;h3 id=&#34;obs-studio-plugins-obs-teleport-v07&#34;&gt;OBS-Studio Plugins: OBS-Teleport v0.7&lt;/h3&gt;&#xA;&lt;p&gt;OBS Teleport è un popolare plugin gratuito per OBS Studio che permette di trasmettere audio e video in tempo reale tra più computer tramite la rete locale (LAN), configurando un setup a doppio PC senza bisogno di costose schede di acquisizione.&#xA;Il plugin agisce in modo simile alla tecnologia NDI, ma utilizza solitamente compressione video/immagini su standard aperti, rendendolo più leggero e meno soggetto a problemi di latenza o sfasamento&lt;/p&gt;</description>
+				<description>&lt;h3 id=&#34;obs-studio-plugins-obs-teleport-v077&#34;&gt;OBS-Studio Plugins: OBS-Teleport v0.7.7&lt;/h3&gt;&#xA;&lt;p&gt;OBS Teleport è un popolare plugin gratuito per OBS Studio che permette di trasmettere audio e video in tempo reale tra più computer tramite la rete locale (LAN), configurando un setup a doppio PC senza bisogno di costose schede di acquisizione.&#xA;Il plugin agisce in modo simile alla tecnologia NDI, ma utilizza solitamente compressione video/immagini su standard aperti, rendendolo più leggero e meno soggetto a problemi di latenza o sfasamento&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>jdwos-smartvideo</title>

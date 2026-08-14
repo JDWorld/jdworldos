@@ -11,8 +11,11 @@
             <!-- 3. Tenta la seconda scansione in content/jdw_pkg/ (per i pacchetti .jdw) -->
             {{ $cercaInPkg := site.GetPage (printf "jdw_pkg/%s" $nomePulito) }}
 
-            <!-- 4. Sceglie la pagina corretta in base a dove esiste veramente il file .md -->
-            {{ $postCorrispondente := or $cercaInPosts $cercaInPkg }}
+            <!-- 4. Tenta la seconda scansione in content/no_kitty/ (per i pacchetti .jdw) -->
+            {{ $cercaInKons := site.GetPage (printf "no_kitty/%s" $nomePulito) }}
+
+            <!-- 5. Sceglie la pagina corretta in base a dove esiste veramente il file .md -->
+            {{ $postCorrispondente := or $cercaInPosts $cercaInPkg $cercaInKons }}
 
             <li style="margin-bottom: 15px; list-style: none; border-left: 2px solid #8b0000; padding-left: 8px;">
                 <!-- Se il file .md esiste in una delle due cartelle, crea il link -->

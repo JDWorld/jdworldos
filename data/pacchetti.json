@@ -6,6 +6,12 @@
   }
 ,
   {
+    "nome": "jdwos-ff-k",
+    "versione": "pkgname=jdwos-ff-k",
+    "descrizione": "pkgver=1.1.1"
+  }
+,
+  {
     "nome": "jdwos-ff-stm",
     "versione": "1.1.0",
     "descrizione": "Identikit tecnico e istruzioni di installazione per il Terminale Avanzato."
@@ -15,6 +21,12 @@
     "nome": "jdwos-media-control",
     "versione": "1.0.1",
     "descrizione": "Il Coltello Svizzero Multimediale del JDWorld OS"
+  }
+,
+  {
+    "nome": "jdwos-media-control-k",
+    "versione": "pkgname=jdwos-media-control-k",
+    "descrizione": "pkgver=1.0.2"
   }
 ,
   {
@@ -48,14 +60,32 @@
   }
 ,
   {
+    "nome": "jdwos-stm-k",
+    "versione": "pkgname=jdwos-stm-k",
+    "descrizione": "pkgver=1.1.7"
+  }
+,
+  {
     "nome": "jdwos-wp-animate",
     "versione": "1.0.0",
     "descrizione": "Live Wallpapers in formato WEBP"
   }
 ,
   {
+    "nome": "jdwos-wp-animate-k",
+    "versione": "pkgname=jdwos-wp-animate-k",
+    "descrizione": "pkgver=1.0.1"
+  }
+,
+  {
     "nome": "jdwos-wp-horror",
     "versione": "1.0.0",
     "descrizione": "Galleria Wallpaper Horror per JDWorld OS"
+  }
+,
+  {
+    "nome": "jdwos-wp-horror-k",
+    "versione": "pkgname=jdwos-wp-horror-k",
+    "descrizione": "pkgver=1.0.1"
   }
 ]
