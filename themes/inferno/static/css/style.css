@@ -15,7 +15,7 @@ html, body {
     /* Il totale fa 100% dello spazio interno del contenitore (che è al 90vw reale) */
     grid-template-columns: 24% 52% 24%;
     gap: 20px;
-    width: 95vw; /* 90% reale del display senza sbandamenti */
+    width: 100vw; /* 90% reale del display senza sbandamenti */
     margin: 0 auto; /* Centrato matematicamente */
     padding: 0;
     box-sizing: border-box;
