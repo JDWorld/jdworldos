@@ -1,0 +1,12 @@
+pkgname=jdwos-obs-teleport
+version=1.0.0
+description=OBS Studio Plugins Teleport v0.7
+dependencies=obs-studio
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=4,5M
+Installed_size=4,5M
+Update_date=10-07-2026
+build_date=03-07-2026
+

@@ -1,0 +1,11 @@
+pkgname=jdwos-wp-horror
+version=1.0.0
+description=Galleria Wallpaper Horror per JDWorld OS
+dependencies=feh
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=1,7M
+Installed_size=1,7M
+Update_date=10-07-2026
+build_date=27-06-2026

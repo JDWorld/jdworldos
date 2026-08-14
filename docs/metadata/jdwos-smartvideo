@@ -1,0 +1,11 @@
+pkgname=jdwos-smartvideo
+version=1.0.0
+description=Smart Video Wallpaper Reborn di Luis Bocanegra v2.13.0-1
+dependencies=mpv gst-libav gst-plugins-good
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=336K
+Installed_size=336K
+Update_date=10-07-2026
+build_date=02-07-2026
