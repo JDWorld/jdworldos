@@ -14,7 +14,7 @@ html, body {
     /* Definisce le colonne in modo rigido: 22% a sinistra, 56% al centro, 22% a destra */
     /* Il totale fa 100% dello spazio interno del contenitore (che è al 90vw reale) */
     grid-template-columns: 24% 52% 24%;
-    gap: 15px;
+    gap: 20px;
     width: 99vw; /* 90% reale del display senza sbandamenti */
     margin: 0 auto; /* Centrato matematicamente */
     padding: 0;
