@@ -1,7 +1,7 @@
 pkgname=jdwos-ff-k
 pkgver=1.1.1
-pkgdesc=Configurazione Custom per Kitty e FastFetch
-dependencies=kitty, fastfetch, ttf-nerd-fonts-symbols-common, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols
+pkgdesc=Configurazione Custom per FastFetch
+dependencies=chafa, fastfetch, ttf-nerd-fonts-symbols-common, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols
 architecture=x86_64 / JDW
 license=Simplified BSD License
 maintainer=JDWorld

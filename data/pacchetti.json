@@ -7,8 +7,8 @@
 ,
   {
     "nome": "jdwos-ff-k",
-    "versione": "pkgname=jdwos-ff-k",
-    "descrizione": "pkgver=1.1.1"
+    "versione": "1.1.1",
+    "descrizione": "Configurazione Custom per FastFetch"
   }
 ,
   {
@@ -25,8 +25,8 @@
 ,
   {
     "nome": "jdwos-media-control-k",
-    "versione": "pkgname=jdwos-media-control-k",
-    "descrizione": "pkgver=1.0.2"
+    "versione": "1.0.2",
+    "descrizione": "Il Media Grabber (Boccaporto Edition)"
   }
 ,
   {
@@ -61,8 +61,8 @@
 ,
   {
     "nome": "jdwos-stm-k",
-    "versione": "pkgname=jdwos-stm-k",
-    "descrizione": "pkgver=1.1.7"
+    "versione": "1.1.7",
+    "descrizione": "JDWorld OS System Tray Menù"
   }
 ,
   {
@@ -73,8 +73,8 @@
 ,
   {
     "nome": "jdwos-wp-animate-k",
-    "versione": "pkgname=jdwos-wp-animate-k",
-    "descrizione": "pkgver=1.0.1"
+    "versione": "1.0.1",
+    "descrizione": "Live Wallpapers in formato WEBP, non è necessario il plugins Smart Video Wallpaper Reborn"
   }
 ,
   {
@@ -85,7 +85,7 @@
 ,
   {
     "nome": "jdwos-wp-horror-k",
-    "versione": "pkgname=jdwos-wp-horror-k",
-    "descrizione": "pkgver=1.0.1"
+    "versione": "1.0.1",
+    "descrizione": "Galleria Wallpaper Horror per JDWorld OS"
   }
 ]
