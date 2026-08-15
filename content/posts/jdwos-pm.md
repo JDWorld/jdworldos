@@ -23,8 +23,6 @@ jdwos-pm/
 
 ### 📋 [Guida ai Comandi Core](/guide/guida-comandi-pm/)
 
-### 📝 [ChangeLog](/changelog/jdwos-pm-changelog)
-
 ---
 
 ### 🛠️ Protocollo di Installazione Pulita (Bootstrap)
@@ -62,5 +60,7 @@ modification, are permitted provided that the following conditions are met:
 
 ---
 
-*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ ØS.*
+*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ Ø$.*
+
+
 _JDWorld OS Console Terminal - Registro di sicurezza del 18 Giugno 2026_

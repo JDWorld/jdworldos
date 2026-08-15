@@ -26,7 +26,7 @@ Galleria Wallpaper Horror di JDWorld OS
 ### 🧰 Dipendenze Richieste
 Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:
 * `feh` 
-* `kitty` 
+
 ---
 
 ### 🛠️ Istruzioni di Installazione rapida
