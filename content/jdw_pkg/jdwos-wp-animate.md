@@ -11,7 +11,7 @@ Live Wallpapers in formato WEBP, non è necessario il plugins Smart Video Wallpa
 
 ### 📦 Scheda Tecnica del Pacchetto
 
-*   **Name**: jdwos-wp-animate.jdw
+*   **Name**: JDWorld OS Animate Wallpaper ({{< title >}}.jdw)
 *   **Architecture**: Nativa Indipendente (x86_64)
 *   **Distro**: Arch Linux
 *   **License(s)**: Simplified BSD License

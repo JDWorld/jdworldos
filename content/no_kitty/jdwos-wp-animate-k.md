@@ -1,15 +1,15 @@
 ---
 title: "jdwos-wp-animate-k"
 date: 2026-08-14T08:00:00+02:00
-description: "Live Wallpapers in formato JPG"
+description: "Live Wallpapers in formato WEBP"
 draft: false
 categories: ["No Kitty", "JDW Packages", "Konsole Safe"]
 tags: ["bash", "konsole", "fastfetch"]
 ---
 
-### JDWorld OS Wallapaper Animare
+### JDWorld OS Wallapaper Animate
 
-Live Wallpapers in formato JPG, non è necessario il plugins Smart Video Wallpaper Reborn
+Live Wallpapers in formato WEBP, non è necessario il plugins Smart Video Wallpaper Reborn
 
 ### 📦 Scheda Tecnica del Pacchetto
 

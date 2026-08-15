@@ -1,7 +1,7 @@
 ---
 title: "jdwos-wp-horror"
 date: 2026-07-10T08:00:00+02:00
-description: "Live Wallpapers in formato WEBP"
+description: "Live Wallpapers in formato JPG"
 draft: false
 ---
 
@@ -11,7 +11,7 @@ Galleria Wallpaper Horror di JDWorld OS
 
 ### 📦 Scheda Tecnica del Pacchetto
 
-*   **Name**: jdwos-wp-horror.jdw
+*   **Name**: JDWorld OS Horror Wallpaper ({{< title >}}.jdw)
 *   **Architecture**: Nativa Indipendente (x86_64)
 *   **Distro**: Arch Linux
 *   **License(s)**: Simplified BSD License

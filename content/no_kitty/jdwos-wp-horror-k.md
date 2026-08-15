@@ -1,7 +1,7 @@
 ---
 title: "jdwos-wp-horror-k"
 date: 2026-08-14T08:00:00+02:00
-description: "Live Wallpapers in formato WEBP"
+description: "Live Wallpapers in formato JPG"
 draft: false
 categories: ["No Kitty", "JDW Packages", "Konsole Safe"]
 tags: ["bash", "konsole", "fastfetch"]
