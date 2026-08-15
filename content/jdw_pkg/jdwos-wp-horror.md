@@ -1,7 +1,7 @@
 ---
 title: "jdwos-wp-horror"
 date: 2026-07-10T08:00:00+02:00
-description: "Live Wallpapers in formato JPG"
+description: "Galleria Wallpaper Horror"
 draft: false
 ---
 
