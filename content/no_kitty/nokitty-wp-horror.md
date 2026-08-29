@@ -1,35 +1,31 @@
 ---
-title: "jdwos-media-control-k"
+title: "nokitty-wp-horror"
 date: 2026-08-14T08:00:00+02:00
-description: "Il Coltello Svizzero Multimediale del JDWorld OS"
+description: "Galleria Wallpaper Horror"
 draft: false
 categories: ["No Kitty", "JDW Packages", "Konsole Safe"]
-tags: ["bash", "konsole", "jdwos-media-control-k"]
+tags: ["bash", "konsole", "fastfetch"]
 ---
 
-### JDWorld OS Media Control
+### JDWorld OS Wallpaper Horror
 
-Il Coltello Svizzero Multimediale del JDWorld OS. 
-Il **JDWorld OS Media Control** è una **TUI** (***Terminal User Interface***) che utilizza `ffmpeg` e `yt-dlp`
+Galleria Wallpaper Horror di JDWorld OS
 
 ### 📦 Scheda Tecnica del Pacchetto
 
-*   **Name**: JDWorld OS Media Control ({{< title >}}.jdw)
+*   **Name**: JDWorld OS Wallapaper Horror ({{< title >}}.jdw)
 *   **Architecture**: Nativa Indipendente (x86_64)
 *   **Distro**: Arch Linux
 *   **License(s)**: Simplified BSD License
 *   **Maintainers**: JDWorld
-*   **Package Size**: 12 KB
-*   **Update Date**: 2026-08-14
+*   **Package Size**: 1.5 MB
+*   **Update Date**: 2026-08-29
 
 ---
 
 ### 🧰 Dipendenze Richieste
 Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:
-* `konsole` 
-* `kdialog` 
-* `yt-dlp` 
-* `ffmpeg` 
+* `feh` 
 
 ---
 
@@ -43,6 +39,7 @@ Se hai la necessità di rimuovere il software mantenendo puliti i registri di si
 
 {{< cmd "jdw-remove " >}}
 
+
 ---
 
 ### 💾 Download Diretto del Binario
@@ -51,13 +48,7 @@ Se hai la necessità di rimuovere il software mantenendo puliti i registri di si
 
 ---
 
-### Anteprima
-
-![jdws-media-control](/images/jdwos-media-control.png)
-
----
-
-*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ Ø$*
+*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ Ø$.*
 
 
-_JDWorld OS Console Terminal - Registro Comunicazioni del 14 Agosto 2026_
+_JDWorld OS Console Terminal - Registro Comunicazioni del 29 Agosto 2026_

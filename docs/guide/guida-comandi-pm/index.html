@@ -122,9 +122,9 @@
             <li style="margin-bottom: 15px; list-style: none; border-left: 2px solid #8b0000; padding-left: 8px;">
                 
                 
-                    <a href="https://jdworld.github.io/jdworldos/no_kitty/jdwos-media-control-k/" style="font-weight: bold; font-size: 1.1rem; color: #ff0000;">
+                    <span style="font-weight: bold; font-size: 1.1rem; color: #8b0000;">
                         📦 jdwos-media-control-k
-                    </a>
+                    </span>
                 
 
                 
@@ -187,7 +187,7 @@
 
                 
                 <span style="color: #888; font-size: 0.85rem; display: block; margin-top: 4px;">
-                    v1.0.3 — JDWorld OS Packages Manager
+                    v1.2.3 — JDWorld OS Packages Manager
                 </span>
             </li>
         
@@ -296,9 +296,9 @@
             <li style="margin-bottom: 15px; list-style: none; border-left: 2px solid #8b0000; padding-left: 8px;">
                 
                 
-                    <a href="https://jdworld.github.io/jdworldos/no_kitty/jdwos-stm-k/" style="font-weight: bold; font-size: 1.1rem; color: #ff0000;">
+                    <span style="font-weight: bold; font-size: 1.1rem; color: #8b0000;">
                         📦 jdwos-stm-k
-                    </a>
+                    </span>
                 
 
                 
@@ -383,9 +383,9 @@
             <li style="margin-bottom: 15px; list-style: none; border-left: 2px solid #8b0000; padding-left: 8px;">
                 
                 
-                    <a href="https://jdworld.github.io/jdworldos/no_kitty/jdwos-wp-horror-k/" style="font-weight: bold; font-size: 1.1rem; color: #ff0000;">
+                    <span style="font-weight: bold; font-size: 1.1rem; color: #8b0000;">
                         📦 jdwos-wp-horror-k
-                    </a>
+                    </span>
                 
 
                 
@@ -445,13 +445,17 @@
 </span></span></code></pre></div><p><strong><code>jdw-remove</code> (Il Disinstallatore Universale):</strong> Sfrutta gli script <code>remove.sh</code> atomici dedicati a ogni pacchetto. Elimina i file di sistema, pulisce le configurazioni nella cartella Home dell’utente reale (<code>${SUDO_USER}</code>) e cancella le tracce dal database locale, lasciando il sistema immacolato.</p>
 <h4 id="-ispezione-metadati">🔍 Ispezione Metadati</h4>
 <p>Per visualizzare la scheda tecnica, digita:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo jdw-info nome-pacchetto
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>jdw-info nome-pacchetto
 </span></span></code></pre></div><p><strong><code>jdw-info</code> (Il Visualizzatore Cloud):</strong> Mostra le specifiche tecniche dei pacchetti formattandole in una tabella stile Arch Web. Funziona istantaneamente sia per i file locali che per quelli residenti online sul Cloud di GitHub.</p>
 <h4 id="-elenco-pacchetti">📊 Elenco Pacchetti</h4>
 <p>Per vedere la lista dei pacchetti installati, digita:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo jdw-list
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>jdw-list
 </span></span></code></pre></div><p><strong><code>jdw-list</code>:</strong> Elenca istantaneamente tutti i pacchetti <code>.jdw</code> attivi sul sistema.</p>
-<p>Niente database pesanti, niente rallentamenti, niente compilazioni infinite e nessun repository di terze parti da aggiungere (la logica è integrata nel core). Tutto ciò che serve come dipendenza viene prelevato direttamente dai repository ufficiali stabili di Arch Linux.</p>
+<h4 id="-aiuto-help">❓ Aiuto (help)</h4>
+<p>Per vedere la lista dei comandi del JDWorld OS, digita:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>jdw-help
+</span></span></code></pre></div><p>**<code>jdw-help</code>: Visualizza tutti i comandi del JDWorld OS
+Niente database pesanti, niente rallentamenti, niente compilazioni infinite e nessun repository di terze parti da aggiungere (la logica è integrata nel core). Tutto ciò che serve come dipendenza viene prelevato direttamente dai repository ufficiali stabili di Arch Linux.</p>
 
         </div>
     </article>

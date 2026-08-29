@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚙️ Slegare i pacchetti da plasma-meta | JÐWØ®LÐ ØS OFFICIAL</title>
+    <title>jdwos-nuke | JÐWØ®LÐ ØS OFFICIAL</title>
     <link rel="stylesheet" href="https://jdworld.github.io/jdworldos/css/style.css">
 </head>
 <body>
@@ -430,70 +430,50 @@
         <main class="main-content">
             
     <article class="single-post">
-        <h2 style="color: #ff0000; border-bottom: 1px solid #4a0000; padding-bottom: 5px;">⚙️ Slegare i pacchetti da plasma-meta</h2>
+        <h2 style="color: #ff0000; border-bottom: 1px solid #4a0000; padding-bottom: 5px;">jdwos-nuke</h2>
         <div style="font-size: 0.8rem; color: #FF4400; margin-bottom: 20px;">
-            [BUILD-DATE: 23/06/2026 | SEZIONE: GUIDE
+            [BUILD-DATE: 02/08/2026 | SEZIONE: JDW_PKG
         </div>
         <div class="post-content" style="line-height: 1.6;">
-            <h2 id="slegare-i-pacchetti-da-plasma-meta-ed-eliminare-il-bloatware">Slegare i pacchetti da plasma-meta ed eliminare il BloatWare</h2>
-<p>Il plasma-meta è un “pacchetto vuoto” che serve solo a forzare l’installazione di una lista rigida di dipendenze e si posiziona in mezzo KDE full (<em><strong>plasma</strong></em>) e KDE minimal (<em><strong>plasma-desktop</strong></em>).<br>
-Se rimuovi anche solo un pezzetto (come discover), Arch è costretto a rimuovere l’intero plasma-meta perché la sua “condizione di esistenza” (avere tutti quei pacchetti installati) viene meno.</p>
-<p>Ecco come risolvere il dilemma e ottenere la lista che cerchi senza rompere il sistema.</p>
-<h3 id="dove-trovare-la-lista-dei-pacchetti-di-plasma-meta">Dove trovare la lista dei pacchetti di plasma-meta?</h3>
-<p>Puoi interrogare direttamente il database di pacman per vedere cosa “pretende” quel meta-pacchetto con questo comando:</p>
-<pre tabindex="0"><code>pactree -u plasma-meta
-</code></pre><p>Se il comando non funziona, installalo con</p>
-<pre tabindex="0"><code>sudo pacman -S pacman-contrib 
-</code></pre><h2 id="come-sbarazzarsi-del-meta-pacchetto-senza-rompere-kde">Come “sbarazzarsi” del meta-pacchetto senza rompere KDE</h2>
-<p>Discover e tanto altro (secondo me) Bloatware fa parte del plasma-meta e se rimuovi plasma-meta, il sistema non si rompe subito, ma al riavvio potresti avere problemi se i pacchetti figli vengono visti come “inutilizzati” e rimossi.</p>
-<h3 id="la-soluzione-pulita-è-trasformare-le-dipendenze-in-installazioni-esplicite">La soluzione pulita è trasformare le dipendenze in installazioni esplicite.</h3>
-<ol>
-<li>Segna tutto come installato manualmente: <br>
-Esegui questo comando per dire ad Arch che tutti i pacchetti necessari a KDE ti servono individualmente (non più perché li vuole il meta-pacchetto):</li>
-</ol>
-<pre tabindex="0"><code>sudo pacman -D --asexplicit $(pactree -u -d 1 plasma-meta)
-</code></pre><ol start="2">
-<li>Rimuovi il meta-pacchetto:</li>
-</ol>
-<pre tabindex="0"><code>sudo pacman -R plasma-meta
-</code></pre><ol start="3">
-<li>Elimina Bloatware:<br>
-Ora che il “legame” è spezzato, puoi eliminare quello che vuoi senza effetti a catena:</li>
-</ol>
-<pre tabindex="0"><code>sudo pacman -Rs discover flatpak-kcm oxygen oxygen-sounds vim htop plasma-welcome --noconfirm
-</code></pre><p>Su Arch Linux, il “nativo” è l’unico modo per godersi davvero la velocità del sistema e la pulizia del codice.<br>
-Liberarsi di plasma-meta è stato il passo decisivo per riprendersi il controllo totale del proprio PC.</p>
-<h2 id="bonus-pulizia">Bonus Pulizia</h2>
-<p>Infine eccoti tre piccoli consigli “da purista” per rifinire il tuo sistema ora che hai spezzato i legami con i meta-pacchetti:</p>
-<h3 id="1-pulisci-la-cache-dei-pacchetti">1. Pulisci la cache dei pacchetti:</h3>
-<p>Pacman conserva una copia di ogni pacchetto scaricato (anche quelli che hai rimosso). Se vuoi recuperare spazio prezioso:</p>
-<pre tabindex="0"><code>sudo pacman -Sc
-</code></pre><p>Se vedi errori riguardanti file /var/cache/pacman/pkg/download-*, si tratta di pacchetti scaricati parzialmente durante un aggiornamento interrotto.</p>
+            <h1 id="-jðwølð-ø-system-nuke-">⚡ JÐWØ®LÐ Ø$: SYSTEM NUKE ⚡</h1>
+<h3 id="-scheda-tecnica-del-pacchetto">📦 Scheda Tecnica del Pacchetto</h3>
 <ul>
-<li>Soluzione: Rimuovi manualmente i file temporanei corrotti:</li>
+<li><strong>Name</strong>: JDWorld OS: System Nuke (jdwos-nuke
+.jdw)</li>
+<li><strong>Architecture</strong>: Nativa Indipendente (x86_64)</li>
+<li><strong>Distro</strong>: Arch Linux</li>
+<li><strong>License(s)</strong>: Simplified BSD License</li>
+<li><strong>Maintainers</strong>: JDWorld</li>
+<li><strong>Package Size</strong>: 25 MB</li>
+<li><strong>Update Date</strong>: 2026-08-29</li>
 </ul>
-<pre tabindex="0"><code>sudo rm -rf /var/cache/pacman/pkg/download-*
-</code></pre><ul>
-<li>Alternativamente, pulisci l’intera cache con;</li>
+<hr>
+<h3 id="-dipendenze-richieste">🧰 Dipendenze Richieste</h3>
+<p>Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:</p>
+<ul>
+<li><code>kdialog</code></li>
 </ul>
-<pre tabindex="0"><code>sudo pacman -Scc
-</code></pre><p>(fai attenzione, questo rimuove tutto, non avrai pacchetti per il downgrade).</p>
-<h3 id="2-usare-paccache-per-una-pulizia-sicura">2. Usare paccache per una pulizia sicura</h3>
-<p>Il metodo raccomandato per la pulizia della cache non è pacman -Scc, ma paccache, che di default mantiene le ultime 3 versioni dei pacchetti.</p>
-<p>Installa pacman-contrib (richiesto):</p>
-<pre tabindex="0"><code>sudo pacman -S pacman-contrib
-</code></pre><p>Rimuovi la cache dei pacchetti non installati:</p>
-<pre tabindex="0"><code>paccache -r
-</code></pre><p>Rimuovi anche la cache dei pacchetti disinstallati (più aggressivo):</p>
-<pre tabindex="0"><code>paccache -rvk0
-</code></pre><h3 id="3-verifica-le-dipendenze-rimaste-orfane">3. Verifica le dipendenze rimaste orfane:</h3>
-<p>Ora che hai rimosso il Bloatware, potrebbero esserci rimaste delle librerie che non servono più a nessuno. Controlla con:</p>
-<pre tabindex="0"><code>sudo pacman -Qdt
-</code></pre><p>Se la lista contiene roba che non ti serve, rimuovila:</p>
-<pre tabindex="0"><code>sudo pacman -Rns nome-pacchetto
-</code></pre><p>Se la pulizia fallisce perché alcuni pacchetti non sono più necessari ma sono ancora bloccati:</p>
-<pre tabindex="0"><code>sudo pacman -Rns $(pacman -Qdtq)
-</code></pre><p>(Nota: Controlla sempre la lista dei pacchetti prima di confermare).</p>
+<hr>
+<h3 id="-istruzioni-di-installazione-rapida">🛠️ Istruzioni di Installazione rapida</h3>
+<p>Grazie al nuovo <strong><a href="../../posts/jdwos-pm">JDWorld OS Package Manager Universale</a></strong>, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:</p>
+<div style="position: relative; margin-bottom: 15px;">
+    <pre><code id="code-1">jdw-install jdwos-nuke.jdw</code></pre>
+    <button class="copy-btn" onclick="copyCode('code-1', this)">[ Copia ]</button>
+</div>
+
+<p>Per la rimozione chirurgica:</p>
+<div style="position: relative; margin-bottom: 15px;">
+    <pre><code id="code-2">jdw-remove jdwos-nuke</code></pre>
+    <button class="copy-btn" onclick="copyCode('code-2', this)">[ Copia ]</button>
+</div>
+
+<hr>
+<h3 id="-download-diretto-del-binario">💾 Download Diretto del Binario</h3>
+<p><a href="https://github.com/JDWorld/jdwos-repo/releases/download/latest/jdwos-nuke
+.jdw">Scarica il pacchetto binario jdwos-nuke
+.jdw</a></p>
+<hr>
+<p><em>JDWorld OS Console Terminal - Registro di bordo del 29 Agosto 2026</em></p>
 
         </div>
     </article>

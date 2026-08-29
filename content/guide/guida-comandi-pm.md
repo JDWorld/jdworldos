@@ -22,15 +22,21 @@ sudo jdw-remove nome-pacchetto
 #### 🔍 Ispezione Metadati
 Per visualizzare la scheda tecnica, digita:
 ```bash
-sudo jdw-info nome-pacchetto
+jdw-info nome-pacchetto
 ```
 **`jdw-info` (Il Visualizzatore Cloud):** Mostra le specifiche tecniche dei pacchetti formattandole in una tabella stile Arch Web. Funziona istantaneamente sia per i file locali che per quelli residenti online sul Cloud di GitHub.
 
 #### 📊 Elenco Pacchetti
 Per vedere la lista dei pacchetti installati, digita:
 ```bash
-sudo jdw-list
+jdw-list
 ```
 **`jdw-list`:** Elenca istantaneamente tutti i pacchetti `.jdw` attivi sul sistema.
 
+#### ❓ Aiuto (help)
+Per vedere la lista dei comandi del JDWorld OS, digita: 
+```bash
+jdw-help
+```
+**`jdw-help`: Visualizza tutti i comandi del JDWorld OS
 Niente database pesanti, niente rallentamenti, niente compilazioni infinite e nessun repository di terze parti da aggiungere (la logica è integrata nel core). Tutto ciò che serve come dipendenza viene prelevato direttamente dai repository ufficiali stabili di Arch Linux.

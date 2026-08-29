@@ -14,13 +14,7 @@
     <loc>https://jdworld.github.io/jdworldos/categories/jdw-packages/</loc>
     <lastmod>2026-08-14T08:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://jdworld.github.io/jdworldos/no_kitty/jdwos-media-control-k/</loc>
-    <lastmod>2026-08-14T08:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://jdworld.github.io/jdworldos/tags/jdwos-media-control-k/</loc>
-    <lastmod>2026-08-14T08:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://jdworld.github.io/jdworldos/no_kitty/jdwos-wp-horror-k/</loc>
     <lastmod>2026-08-14T08:00:00+02:00</lastmod>
   </url><url>
     <loc>https://jdworld.github.io/jdworldos/tags/konsole/</loc>
@@ -35,6 +29,12 @@
     <loc>https://jdworld.github.io/jdworldos/no_kitty/</loc>
     <lastmod>2026-08-14T08:00:00+02:00</lastmod>
   </url><url>
+    <loc>https://jdworld.github.io/jdworldos/no_kitty/nokitty-mc/</loc>
+    <lastmod>2026-08-14T08:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jdworld.github.io/jdworldos/no_kitty/nokitty-wp-horror/</loc>
+    <lastmod>2026-08-14T08:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://jdworld.github.io/jdworldos/tags/</loc>
     <lastmod>2026-08-14T08:00:00+02:00</lastmod>
   </url><url>
@@ -46,6 +46,18 @@
   </url><url>
     <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-wpuch/</loc>
     <lastmod>2026-08-10T08:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-ic666/</loc>
+    <lastmod>2026-08-02T10:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-nuke/</loc>
+    <lastmod>2026-08-02T10:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-stream-player/</loc>
+    <lastmod>2026-08-02T10:10:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jdworld.github.io/jdworldos/no_kitty/nokitty-stream-player/</loc>
+    <lastmod>2026-08-02T10:10:00+02:00</lastmod>
   </url><url>
     <loc>https://jdworld.github.io/jdworldos/guide/guida-jdworld-os/</loc>
     <lastmod>2026-07-27T18:00:00+02:00</lastmod>
@@ -89,6 +101,9 @@
     <loc>https://jdworld.github.io/jdworldos/jdw_pkg/jdwos-ff-stm/</loc>
     <lastmod>2026-06-19T18:10:00+02:00</lastmod>
   </url><url>
+    <loc>https://jdworld.github.io/jdworldos/no_kitty/nokitty-ff-stm/</loc>
+    <lastmod>2026-06-19T18:10:00+02:00</lastmod>
+  </url><url>
     <loc>https://jdworld.github.io/jdworldos/guide/guida-comandi-pm/</loc>
     <lastmod>2026-06-19T15:00:00+02:00</lastmod>
   </url><url>
@@ -101,7 +116,7 @@
     <loc>https://jdworld.github.io/jdworldos/tags/jdwos-stm/</loc>
     <lastmod>2026-04-27T17:36:00+02:00</lastmod>
   </url><url>
-    <loc>https://jdworld.github.io/jdworldos/no_kitty/jdwos-stm-k/</loc>
+    <loc>https://jdworld.github.io/jdworldos/no_kitty/nokitty-stm/</loc>
     <lastmod>2026-04-27T17:36:00+02:00</lastmod>
   </url><url>
     <loc>https://jdworld.github.io/jdworldos/changelog/jdwos-pm-changelog/</loc>

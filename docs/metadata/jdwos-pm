@@ -1,7 +1,7 @@
 pkgname=jdwos-pm
-version=1.0.3
+version=1.2.3
 description=JDWorld OS Packages Manager
-dependencies=nessuna
+dependencies=kdialog jdwos-corelib
 architecture=x86_64
 license=Simplified BSD License
 maintainer=JDWorld

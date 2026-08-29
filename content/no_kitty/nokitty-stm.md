@@ -1,5 +1,5 @@
 ---
-title: "jdwos-stm-k"
+title: "nokitty-stm"
 date: 2026-04-27T17:36:00+02:00
 description: "JDWorld OS: System Tray Menù, multilivello e dinamico sviluppato in Python 3 utilizzando le librerie grafiche native PyQt6"
 draft: false
@@ -22,7 +22,7 @@ Ispirandomi a come gestisco Windows tramite software open-source e PortableApps,
 *   **Maintainers**: JDWorld
 *   **Package Size**: 408 KB
 *   **Build Date**: 2026-04-27
-*   **Update Date**: 2026-08-14
+*   **Update Date**: 2026-08-29
 
 ---
 
@@ -59,4 +59,4 @@ Per la rimozione chirurgica:
 *Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ ØS*
 
 
-_JDWorld OS Console Terminal - Registro di bordo del 14 Agosto 2026_
+_JDWorld OS Console Terminal - Registro di bordo del 29 Agosto 2026_

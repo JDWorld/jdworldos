@@ -1,32 +1,28 @@
 ---
-title: "jdwos-wp-horror-k"
-date: 2026-08-14T08:00:00+02:00
-description: "Galleria Wallpaper Horror"
+title: "jdwos-nuke"
+date: 2026-08-02T10:10:00+02:00
+description: "Inferno Core"
 draft: false
-categories: ["No Kitty", "JDW Packages", "Konsole Safe"]
-tags: ["bash", "konsole", "fastfetch"]
 ---
 
-### JDWorld OS Wallpaper Horror
+# ⚡ JÐWØ®LÐ Ø$: SYSTEM NUKE ⚡
 
-Galleria Wallpaper Horror di JDWorld OS
 
 ### 📦 Scheda Tecnica del Pacchetto
 
-*   **Name**: JDWorld OS Wallapaper Horror ({{< title >}}.jdw)
+*   **Name**: JDWorld OS: System Nuke ({{< title >}}.jdw)
 *   **Architecture**: Nativa Indipendente (x86_64)
 *   **Distro**: Arch Linux
 *   **License(s)**: Simplified BSD License
 *   **Maintainers**: JDWorld
-*   **Package Size**: 1.5 MB
-*   **Update Date**: 2026-08-14
+*   **Package Size**: 25 MB
+*   **Update Date**: 2026-08-29
 
 ---
 
 ### 🧰 Dipendenze Richieste
 Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:
-* `feh` 
-
+* `kdialog`
 ---
 
 ### 🛠️ Istruzioni di Installazione rapida
@@ -35,10 +31,9 @@ Grazie al nuovo **[JDWorld OS Package Manager Universale](/posts/jdwos-pm)**, pu
 
 {{< cmd "jdw-install " ".jdw" >}}
 
-Se hai la necessità di rimuovere il software mantenendo puliti i registri di sistema:
+Per la rimozione chirurgica:
 
 {{< cmd "jdw-remove " >}}
-
 
 ---
 
@@ -48,7 +43,5 @@ Se hai la necessità di rimuovere il software mantenendo puliti i registri di si
 
 ---
 
-*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ Ø$.*
 
-
-_JDWorld OS Console Terminal - Registro Comunicazioni del 14 Agosto 2026_
+_JDWorld OS Console Terminal - Registro di bordo del 29 Agosto 2026_

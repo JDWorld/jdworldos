@@ -18,7 +18,8 @@ jdwos-pm/
 ├── jdw-install          <-- L'installatore nativo
 ├── jdw-remove           <-- Il disinstallatore nativo
 ├── jdw-info             <-- Il visualizzatore di schede tecniche
-└── jdw-list             <-- L'elenco dei pacchetti a bordo
+├── jdw-list             <-- L'elenco dei pacchetti a bordo
+└── jdw-help             <-- Visualizza l'elenco dei comandi del JDWorld OS
 ```
 
 ### 📋 [Guida ai Comandi Core](/guide/guida-comandi-pm/)
