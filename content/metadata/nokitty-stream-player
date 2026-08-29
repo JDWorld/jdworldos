@@ -1,0 +1,12 @@
+pkgname=nokitty-stream-player
+pkgver=1.1.1
+pkgdesc=Metal Streaming Player Core [NO KITTY]
+dependencies=ffmpeg kdialog yt-dlp socat jq mpv
+dependenciesdeb=ffmpeg kdialog yt-dlp socat jq mpv
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=84K
+installed_size=84K
+build_date=22-08-2026
+update_date=26-08-2026

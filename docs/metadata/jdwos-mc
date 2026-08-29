@@ -1,0 +1,12 @@
+pkgname=jdwos-mc
+pkgver=1.0.3
+pkgdesc=Media Control Lite (Boccaporto Edition) [IC666 MOD.]
+dependencies=kitty ffmpeg kdialog yt-dlp
+dependenciesdeb=kitty ffmpeg kdialog yt-dlp
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=28K
+installed_size=28K
+build_date=05-07-2026
+update_date=28-08-2026

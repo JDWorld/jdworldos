@@ -1,8 +1,20 @@
 [
   {
+    "nome": "ic666-pm",
+    "versione": "1.0.1",
+    "descrizione": "Simple Package Manager"
+  }
+,
+  {
     "nome": "jdwos-briar",
     "versione": "1.0.0",
     "descrizione": "Briar, Chat P2P crittografata su rete Tor nativa."
+  }
+,
+  {
+    "nome": "jdwos-corelib",
+    "versione": "1.2.2",
+    "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ Ø$"
   }
 ,
   {
@@ -12,15 +24,15 @@
   }
 ,
   {
-    "nome": "jdwos-media-control",
-    "versione": "1.0.1",
-    "descrizione": "Il Coltello Svizzero Multimediale del JDWorld OS"
+    "nome": "jdwos-mc",
+    "versione": "1.0.3",
+    "descrizione": "Media Control Lite (Boccaporto Edition) [IC666 MOD.]"
   }
 ,
   {
-    "nome": "jdwos-media-control-k",
-    "versione": "1.0.2",
-    "descrizione": "Il Media Grabber (Boccaporto Edition)"
+    "nome": "jdwos-netbird",
+    "versione": "1.2.0",
+    "descrizione": "NetBird P2P VPN Suite"
   }
 ,
   {
@@ -31,8 +43,8 @@
 ,
   {
     "nome": "jdwos-pm",
-    "versione": "1.2.3",
-    "descrizione": "JDWorld OS Packages Manager"
+    "versione": "1.2.4",
+    "descrizione": "JDWorld OS Package Manager Universale"
   }
 ,
   {
@@ -49,13 +61,7 @@
 ,
   {
     "nome": "jdwos-stm",
-    "versione": "1.1.2",
-    "descrizione": "JDWorld OS System Tray Menù (sviluppato in PyQt6)"
-  }
-,
-  {
-    "nome": "jdwos-stm-k",
-    "versione": "1.1.7",
+    "versione": "1.1.8",
     "descrizione": "JDWorld OS System Tray Menù"
   }
 ,
@@ -72,14 +78,38 @@
   }
 ,
   {
-    "nome": "jdwos-wp-horror-k",
-    "versione": "1.0.1",
-    "descrizione": "Galleria Wallpaper Horror per JDWorld OS"
-  }
-,
-  {
     "nome": "jdwos-wp-inferno",
     "versione": "6.6.6",
     "descrizione": "Inferno Template per il JÐWØ®LÐ Ø$"
+  }
+,
+  {
+    "nome": "nokitty-ff-stm",
+    "versione": "1.1.3",
+    "descrizione": "Configurazione Custom per FastFetch [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-mc",
+    "versione": "1.0.3",
+    "descrizione": "Media Control Lite (Boccaporto Edition) [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-stm",
+    "versione": "1.1.8",
+    "descrizione": "JDWorld OS System Tray Menù [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-stream-player",
+    "versione": "1.1.1",
+    "descrizione": "Metal Streaming Player Core [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-wp-horror",
+    "versione": "1.0.2",
+    "descrizione": "Galleria Wallpaper Horror per JDWorld OS"
   }
 ]

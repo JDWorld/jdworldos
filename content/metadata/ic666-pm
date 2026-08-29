@@ -1,0 +1,12 @@
+pkgname=ic666-pm
+pkgver=1.0.1
+pkgdesc=Simple Package Manager
+dependencies=nessuna
+dependenciesdeb=nessuna
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=20K
+installed_size=20K
+build_date=14-08-2026
+update_date=22-08-2026
