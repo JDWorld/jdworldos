@@ -5,7 +5,7 @@ description: "Live Wallpapers in formato WEBP"
 draft: false
 ---
 
-### JDWorld OS Media Control
+## JDWorld OS: Wallpaper Animate
 
 Live Wallpapers in formato WEBP, non è necessario il plugins Smart Video Wallpaper Reborn
 
@@ -50,4 +50,6 @@ Nel caso preferite scaricare il pacchetto .jdw, per installarlo apri il terminal
 ---
 
 *Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ ØS.*
+
+
 _JDWorld OS Console Terminal - Registro Comunicazioni del 10 Luglio 2026_
