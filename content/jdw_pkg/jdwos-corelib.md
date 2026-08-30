@@ -1,29 +1,22 @@
 ---
-title: "ic666-pm"
+title: "jdwos-corelib"
 date: 2026-08-02T10:10:00+02:00
-description: "Inferno Core Paackages Manager"
+description: "Inferno Core Lib"
 draft: false
 ---
 
-# ⚡ JÐWØ®LÐ Ø$: INFERNO CORE PM ⚡
-
-Questo è il modulo Package Manager dell'Inferno Core
+## ⚡ JÐWØ®LÐ Ø$: CoreLib ⚡ ##
+Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ Ø$
 
 ### 📦 Scheda Tecnica del Pacchetto
 
-*   **Name**: JDWorld OS Inferno Core PM ({{< title >}}.jdw)
+*   **Name**: JDWorld OS: CoreLib ({{< title >}}.jdw)
 *   **Architecture**: Nativa Indipendente (x86_64)
 *   **Distro**: Arch Linux
 *   **License(s)**: Simplified BSD License
 *   **Maintainers**: JDWorld
 *   **Package Size**: 25 MB
 *   **Update Date**: 2026-08-29
-
----
-
-### 🧰 Dipendenze Richieste
-Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:
-* `kdialog`
 
 ---
 
@@ -40,7 +33,6 @@ Per la rimozione chirurgica:
 Nel caso preferite scaricare il pacchetto .jdw, per installarlo apri il terminale e digita:
 
 {{< cmd "jdw-install " ".jdw" >}}
-
 ---
 
 ### 💾 Download Diretto del Binario

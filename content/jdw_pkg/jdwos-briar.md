@@ -21,11 +21,15 @@ draft: false
 
 Per distribuire Briar sulla console locale di JDWorld OS ed agganciare la rete protetta di bordo, esegui:
 
-{{< cmd "jdw-install " ".jdw" >}}
+{{< cmd "jdw-install " >}}
 
 Se hai la necessità di rimuovere il software mantenendo puliti i registri di sistema:
 
 {{< cmd "jdw-remove " >}}
+
+Nel caso preferite scaricare il pacchetto .jdw, per installarlo apri il terminale e digita:
+
+{{< cmd "jdw-install " ".jdw" >}}
 
 ---
 

@@ -35,11 +35,15 @@ Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri
 
 Grazie al nuovo **[JDWorld OS Package Manager Universale](/posts/jdwos-pm)**, puoi installare questo pacchetto direttamente dal cloud senza scaricare nulla a mano. Apri il terminale e digita:
 
-{{< cmd "jdw-install " ".jdw" >}}
+{{< cmd "jdw-install " >}}
 
 Se hai la necessità di rimuovere il software mantenendo puliti i registri di sistema:
 
 {{< cmd "jdw-remove " >}}
+
+Nel caso preferite scaricare il pacchetto .jdw, per installarlo apri il terminale e digita:
+
+{{< cmd "jdw-install " ".jdw" >}}
 
 ---
 

@@ -34,11 +34,15 @@ Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri
 
 Esegui il comando sulla console di JDWorld OS:
 
-{{< cmd "jdw-install " ".jdw" >}}
+{{< cmd "jdw-install " >}}
 
 Per la rimozione chirurgica:
 
 {{< cmd "jdw-remove " >}}
+
+Nel caso preferite scaricare il pacchetto .jdw, per installarlo apri il terminale e digita:
+
+{{< cmd "jdw-install " ".jdw" >}}
 
 ---
 
