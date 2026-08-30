@@ -1,7 +1,7 @@
 ---
 title: "jdwos-stream-player"
 date: 2026-08-02T10:10:00+02:00
-description: "Inferno Core"
+description: "JDWorld OS: METALCORE STREAM PLAYER"
 draft: false
 ---
 
