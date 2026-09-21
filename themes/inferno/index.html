@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }} | JDWorld OS</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body style="background-color: #000000; color: #ff0000; margin: 0; font-family: monospace;">
+
+    <!-- HEADER -->
+    <header style="border-bottom: 2px solid #ff0000; padding: 20px; text-align: center;">
+        <h1>JÐWØ®LÐ ØS - OFFICIAL PORTAL</h1>
+    </header>
+
+    <!-- STRUTTURA A COLONNE (CSS GRID) -->
+    <div style="display: grid; grid-template-columns: 250px 1fr; min-height: 80vh;">
+
+        <!-- COLONNA SINISTRA: MENU / SIDEBAR -->
+        <aside style="border-right: 2px solid #ff0000; padding: 20px;">
+            <h3>📂 NAVIGAZIONE</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="/" style="color: #ff0000; text-decoration: none;">> Home</a></li>
+                <li><a href="/posts/jdworld-os/" style="color: #ff0000; text-decoration: none;">> Rinascita OS</a></li>
+                <li><a href="/posts/guida-plasma-meta/" style="color: #ff0000; text-decoration: none;">> Slegare Plasma</a></li>
+            </ul>
+        </aside>
+
+        <!-- COLONNA CENTRALE: CONTENUTO DINAMICO -->
+        <main style="padding: 30px;">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+    </div>
+
+    <!-- FOOTER CON IL TUO JS COUNTER DI 24 ANNI FA -->
+    <footer style="border-top: 2px solid #ff0000; padding: 20px; text-align: center;">
+        <span id="jdw-counter"></span>
+        <script src="/js/counter.js"></script>
+    </footer>
+
+</body>
+</html>

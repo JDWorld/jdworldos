@@ -1,0 +1,11 @@
+pkgname=jdwos-wp-inferno
+pkgver=6.6.6
+pkgdesc=Inferno Template per il JÐWØ®LÐ Ø$
+dependencies=nessuna
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=181M
+installed_size=193M
+build_date=31-07-2026
+update_date=13-08-2026

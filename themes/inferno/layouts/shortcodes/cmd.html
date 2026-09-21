@@ -1,0 +1,4 @@
+<div style="position: relative; margin-bottom: 15px;">
+    <pre><code id="code-{{ .Ordinal }}">{{ .Get 0 }}{{ .Page.Title }}{{ .Get 1 }}</code></pre>
+    <button class="copy-btn" onclick="copyCode('code-{{ .Ordinal }}', this)">[ Copia ]</button>
+</div>

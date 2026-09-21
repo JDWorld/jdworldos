@@ -1,0 +1,11 @@
+pkgname=jdwos-qge
+version=1.0.0
+description=QuickGUI e QuickEMU per JDWorld OS
+dependencies=qemu-full coreutils grep jq procps python3 cdrtools usbutils util-linux sed spice-gtk swtpm wget xorg-xrandr zsync edk2-ovmf xdg-user-dirs socat
+architecture=x86_64
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=25M
+Installed_size=25M
+Update_date=27-07-2026
+build_date=27-07-2026

@@ -1,0 +1,64 @@
+---
+title: "jdwos-stm"
+date: 2026-04-27T17:36:00+02:00
+description: "JDWorld OS: System Tray Menù, multilivello e dinamico sviluppato in Python 3 utilizzando le librerie grafiche native PyQt6"
+draft: false
+---
+
+# JDWorld OS System Tray Menù
+
+Ispirandomi a come gestisco Windows tramite software open-source e PortableApps, ho creato un menu dove poter inserire a mio piacimento i collegamenti delle applicazioni che uso di più.
+
+---
+
+### 📦 Scheda Tecnica del Pacchetto
+
+*   **Name**: JDWorld OS System Tray Menù ({{< title >}}.jdw)
+*   **Architecture**: Nativa Indipendente (.jdw)
+*   **Distro**: Arch Linux
+*   **License(s)**: Simplified BSD License
+*   **Maintainers**: JDWorld
+*   **Package Size**: 408 KB
+*   **Build Date**: 2026-04-27
+*   **Update Date**: 2026-07-15
+
+---
+
+### 🧰 Dipendenze Richieste
+Il sistema provvederà a scaricare automaticamente dai repository ufficiali puri di Arch:
+* `pyqt6`  (libreria Python che permette di creare interfacce grafiche utente)
+
+---
+
+### 🛠️ Istruzioni di Installazione rapida
+
+Esegui il comando sulla console di JDWorld OS:
+
+{{< cmd "sudo jdw-install " >}}
+
+Per la rimozione chirurgica:
+
+{{< cmd "sudo jdw-remove " >}}
+
+Nel caso preferite scaricare il pacchetto .jdw, per installarlo apri il terminale e digita:
+
+{{< cmd "sudo jdw-install " ".jdw" >}}
+
+---
+
+### 💾 Download Diretto del Binario
+
+[Scarica il pacchetto binario {{< title >}}.jdw](https://github.com/JDWorld/jdwos-repo/releases/download/latest/{{< title >}}.jdw)
+
+---
+
+### Anteprima
+
+![JDWorld OS System Tray Menù](/images/jdwos-stm.png)
+
+---
+
+*Sviluppato come parte del sistema operativo personalizzato JÐWØ®LÐ ØS*
+
+
+_JDWorld OS Console Terminal - Registro di bordo del 15 Luglio 2026_

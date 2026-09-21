@@ -1,0 +1,12 @@
+pkgname=jdwos-netbird
+pkgver=1.2.0
+pkgdesc=NetBird P2P VPN Suite
+dependencies=jdwos-ic666
+dependenciesdeb=jdwos-ic666
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=20K
+installed_size=20K
+build_date=05-07-2026
+update_date=22-08-2026
