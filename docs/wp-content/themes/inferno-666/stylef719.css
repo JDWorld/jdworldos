@@ -1,0 +1,917 @@
+/*
+ * Theme Name: JÐWØ®LÐ ØS - Inferno
+ * Theme URI: https://jdworld-os.netbird.cloud
+ * Author: Mr_Jack & Virtual AI
+ * Description: Tema minimale, ultra-veloce e senza bloatware basato sull'Ecosistema Inferno Core del JÐWØ®LÐ ØS.
+ * Version: 6.6.6
+ */
+
+/* Reset e Base */
+body {
+    background-color: #0d0d0d;
+    color: #e5e5e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Tassonomia Cromatica per i Blocchi Codice */
+/* 1. BLOCCHI DI CODICE GRANDI (Bash, PHP, HTML, ecc. - Occupano tutta la riga) */
+pre {
+    background-color: #161616 !important;
+    color: #00ffcc !important; /* Ciano / Turchese nativo JDW-WebDev */
+    font-family: 'JetBrains Mono', monospace;
+    border-left: 4px solid #ff5500; /* Arancione Media Control */
+    padding: 12px;
+    border-radius: 4px;
+    display: block; /* Va a capo e occupa tutta la riga */
+    overflow-x: auto; /* Mette la barra di scorrimento se il codice è troppo lungo */
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 2. CODICE INLINE (Singoli comandi dentro una frase - Rimangono dentro la riga) */
+p code, li code {
+    background-color: #1a1a1a !important;
+    color: #00ffcc !important; /* Ciano nativo */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.95rem;
+    padding: 2px 6px; /* Padding ridotto per stare dentro la frase */
+    border-radius: 3px;
+    display: inline; /* FONDAMENTALE: Rimane dentro il testo senza andare a capo */
+    border: 1px solid #333; /* Un piccolo bordo per staccarlo visivamente */
+}
+
+/* 3. CITAZIONI (Blockquotes - Occupano tutta la riga) */
+blockquote {
+    background-color: #1a1a1a;
+    border-left: 4px solid #ffcc00; /* Giallo Package Manager */
+    color: #b3b3b3;
+    font-style: italic;
+    padding: 15px;
+    margin: 25px 0;
+    display: block; /* Va a capo e occupa tutta la riga */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Citazioni */
+blockquote {
+    background-color: #1a1a1a;
+    border-left: 4px solid #ffcc00; /* Giallo Package Manager */
+    color: #b3b3b3;
+    font-style: italic;
+    padding: 10px 15px;
+    margin: 20px 0;
+}
+
+/* SINGLE.PHP */
+/* Container principale: esteso al 99% della larghezza */
+.inferno-container {
+    width: 99%;
+    max-width: 99%;
+    margin: 40px auto;
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+
+/* Modifica alla griglia per sfruttare tutto lo spazio allargato */
+/* Griglia Principale: forzata a 3 colonne simmetriche sul 99% dello schermo */
+/* Forza la griglia a 3 colonne simmetriche al 99% scavalcando i plugin di cache */
+/* Forza la griglia a 3 colonne simmetriche sui monitor grandi */
+.jdw-posts-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100% !important;
+}
+
+/* 📱 RESPONSIVITÀ HARDCORE: Ripristino ordine sui dispositivi mobili */
+@media (max-width: 1024px) {
+    .jdw-posts-grid {
+        /* Passa a 2 colonne sui tablet (come quello di Ilaria) */
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .jdw-posts-grid {
+        /* Passa a 1 colonna secca sugli smartphone */
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+/* Posizionamento del Badge in Basso a Sinistra rispetto alla foto */
+.jdw-card-category-badge {
+    position: absolute;
+    bottom: 12px; /* Spostato da top a bottom */
+    left: 12px;
+    padding: 4px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Stile dei nuovi metadati sotto al titolo */
+.card-meta-info {
+    font-family: 'JetBrains Mono', monospace;
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    margin-bottom: 25px; /* Spazio fisso per spingere il bottone in basso */
+    display: flex;
+    align-items: center;
+}
+.meta-space {
+    margin: 0 8px;
+    color: #333;
+}
+
+/* Forza l'allineamento dei bottoni sul fondo della card */
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Spinge il blocco d'azione sul fondo in modo simmetrico */
+    flex-grow: 1;
+}
+
+
+/* Contenitore dell'immagine modificato per posizionare il badge assoluto */
+.card-thumbnail {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Il Badge della Categoria sopra l'immagine */
+/* L'etichetta pulita in sovrimpressione in basso a sinistra sulla foto */
+.jdw-card-category-badge {
+    position: absolute !important;
+    bottom: 12px !important; /* Forza la posizione in basso */
+    top: auto !important;    /* Annulla la vecchia posizione in alto */
+    left: 12px !important;
+    display: inline-block !important; /* Impedisce al blocco di estendersi su tutta l'immagine */
+    width: auto !important;  /* Dimensione stretta basata solo sulla lunghezza del testo */
+    height: auto !important;
+    padding: 4px 10px !important;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    line-height: 1 !important;
+}
+
+
+/* Gestione Bordi e Badge Dinamici (Tassonomia Inferno) */
+.border-giallo { border-left: 5px solid #ffcc00; padding-left: 15px; }
+.text-giallo { color: #ffcc00; }
+.bg-giallo { background-color: #ffcc00; color: #000; }
+
+.border-arancione { border-left: 5px solid #ff5500; padding-left: 15px; }
+.text-arancione { color: #ff5500; }
+.bg-arancione { background-color: #ff5500; color: #fff; }
+
+.border-rosso { border-left: 5px solid #ff0033; padding-left: 15px; }
+.text-rosso { color: #ff0033; }
+.bg-rosso { background-color: #ff0033; color: #fff; }
+
+.border-cyan { border-left: 5px solid #00ffcc; padding-left: 15px; }
+.text-cyan { color: #00ffcc; }
+.bg-cyan { background-color: #00ffcc; color: #000; }
+
+/* Stile del Badge Versione */
+.pacchetto-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.pacchetto-content {
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.pacchetto-footer {
+    margin-top: 40px;
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* SIDEBAR DX */
+/* Layout a due colonne per l'articolo completo */
+.jdw-single-layout-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Area articolo (Prende il 75% dello spazio allargato al 99%) */
+.jdw-single-content-area {
+    width: 75%;
+}
+
+/* Stile della Sidebar Destra (Prende il 23%) */
+.jdw-sidebar-destra {
+    width: 23%;
+    background-color: #111;
+    border-left: 2px solid #222;
+    padding: 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+/* Elementi interni della Sidebar (Widget) */
+.jdw-widget {
+    margin-bottom: 30px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+.widget-title {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+.status-ok {
+    color: #00ffcc; /* Ciano per i log attivi */
+    margin: 5px 0;
+}
+
+/* Responsività per gli schermi piccoli */
+@media (max-width: 1024px) {
+    .jdw-single-layout-wrapper {
+        flex-direction: column;
+    }
+    .jdw-single-content-area, .jdw-sidebar-destra {
+        width: 100%;
+    }
+    .jdw-sidebar-destra {
+        margin-top: 40px;
+        border-left: none;
+        border-top: 2px solid #222;
+    }
+}
+
+/* Monitor di rete stile terminale */
+.monitor-logs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.monitor-logs li {
+    margin-bottom: 8px;
+    color: #888;
+}
+.status-pending {
+    color: #ffcc00; /* Giallo per l'attesa Iliad */
+}
+
+/* Contenitore Immagine Netbird nella Sidebar */
+.netbird-access-gate {
+    text-align: center;
+}
+.widget-desc {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+.netbird-gate-img {
+    width: 100% !important;
+    height: auto !important;
+    border: 1px solid #333;
+    border-radius: 4px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.netbird-gate-img:hover {
+    border-color: #ff5500; /* Il bordo si accende di arancione all'hover */
+    box-shadow: 0 0 10px rgba(255, 85, 0, 0.4);
+}
+
+
+/* HEADER.PHP */
+/* Layout Generale Header */
+.jdw-header-master {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+}
+
+/* Barra di Stato Stile Terminale */
+.jdw-top-status-bar {
+    background-color: #111;
+    color: #555; /* Ciano JDW-WebDev */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+}
+.status-separator { margin: 0 10px; color: #555; }
+.social-link { color: #ffcc00; text-decoration: none; margin-left: 15px; } /* Giallo JDW-Package */
+.social-link:hover { color: #00ffcc; }
+
+/* Hero Centrale con Immagine di Sfondo */
+.jdw-hero-banner {
+    background-image: url('images/header.png'); /* Carica la tua immagine preferita nella cartella del tema */
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.7); /* Scurisce lo sfondo per far leggere il testo */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.jdw-main-title { font-size: 2.8rem; color: #fff; margin: 0; font-weight: 800; letter-spacing: 2px; }
+.jdw-main-motto { font-size: 1.2rem; color: #888; margin: 5px 0 0 0; font-family: 'JetBrains Mono', monospace; }
+
+/* Barra Rossa di Navigazione Inferiore */
+.jdw-nav-bar-inferno {
+    background-color: #ff0033; /* Rosso Inferno */
+    padding: 10px 20px;
+}
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-inferno-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu-inferno-lista li { margin-right: 20px; }
+.menu-inferno-lista li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+.menu-inferno-lista li a:hover { color: #000; }
+
+/* Riquadro Cerca */
+.nav-search-wrapper input[type="search"] {
+    background-color: #000;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.nav-search-wrapper input[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pacchetto-header {
+    border: none !important; /* Elimina il bordo del titolo nel post completo */
+    padding-left: 0 !important;
+    margin-bottom: 20px;
+}
+
+/* FOOTER.PHP */
+/* Layout Generale Footer */
+.jdw-footer-master {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #000;
+    border-top: 2px solid #ff0033; /* Apertura con linea Rosso Inferno */
+    border-bottom: 2px solid #ff0033; /* Chiusura con linea Rosso Inferno */
+}
+
+/* Sfondo Animato con Overlay per il Testo */
+.footer-animated-bg {
+    background-image: url('images/footer.webp'); /* Percorso relativo nativo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 180px;
+    width: 100%;
+    max-width: 100%; /* Impedisce all'immagine di uscire fuori dai bordi del tema */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Include padding e bordi nel calcolo della larghezza */
+    overflow: hidden; /* Taglia via qualsiasi pixel che tenta di orbitare all'esterno */
+}
+
+
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.85); /* Scurisce lo sfondo animato per non distruggere la vista */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Stile della Citazione */
+.footer-quote {
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffcc00; /* Giallo nativo per le citazioni dell'Ecosistema */
+    font-size: 1rem;
+    font-style: italic;
+    max-width: 750px;
+    margin: 0 0 15px 0;
+    line-height: 1.5;
+}
+
+/* Stile del Copyright e dell'Orologio dei Due Decenni */
+.footer-copyright-container {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    /* JDWosld Mod */
+    color: #ff5500; /* Arancione */
+
+}
+
+#jdw-time-counter {
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.jdw-framework-log {
+    margin: 5px 0 0 0;
+    color: #555;
+    font-size: 0.75rem;
+}
+
+/* INDEX.PHP */
+/* Griglia Principale */
+.jdw-posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Card del Singolo Post */
+.jdw-post-card {
+    background-color: #111;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jdw-post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Gestione Immagine Anteprima */
+.card-thumbnail img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Fallback se non carichi immagini */
+.thumbnail-fallback {
+    width: 100%;
+    height: 180px;
+/*    background: linear-gradient(135deg, #161616, #000);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    color: #444;
+    border-bottom: 1px solid #222;
+}
+/* Stile del Box di Fallback per i post senza immagine */
+.card-thumbnail-fallback {
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100% !important;
+    height: 200px !important; /* Diamo un'altezza fissa o in percentuale per uniformare le CardBOX */
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+.card-fallback-text-wrapper {
+    position: relative !important;
+    z-index: 2 !important;
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+/* Regoliamo la dimensione dei testi del fallback per non farli sbordare dalle card */
+.card-title-fallback {
+    font-size: 1.4rem !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 8px #ff0000 !important;
+    margin-bottom: 5px !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+}
+
+.card-motto-fallback {
+    font-size: 0.8rem !important;
+    color: #888888 !important;
+    letter-spacing: 1px !important;
+}
+/* Corpo della Card */
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.card-excerpt {
+    color: #aaa;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    height: 65px; /* Forza la stessa identica altezza per tutte le descrizioni */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+/* Pulsante Leggi Tutto Custom */
+/* Sovrascrivi il blu nativo dei link per i pulsanti della griglia */
+.jdw-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Forzatura colore testo sui background della tassonomia */
+.bg-arancione { background-color: #ff5500 !important; color: #ffffff !important; }
+.bg-rosso      { background-color: #ff0033 !important; color: #ffffff !important; }
+.bg-cyan       { background-color: #00ffcc !important; color: #000000 !important; }
+.bg-giallo     { background-color: #ffcc00 !important; color: #000000 !important; }
+
+
+.jdw-btn:hover {
+    opacity: 0.85;
+}
+
+/* Paginazione */
+.jdw-pagination {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.jdw-pagination .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.jdw-pagination .page-numbers {
+    background-color: #111;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.jdw-pagination .page-numbers.current {
+    background-color: #ff0033; /* Rosso Inferno */
+    color: #fff;
+}
+
+.jdw-pagination .page-numbers:hover:not(.current) {
+    background-color: #222;
+    color: #00ffcc;
+}
+
+/* Copy Button */
+/* 🛸 STILE PULSANTE DI COPIA NEI BLOCCHI <PRE> - INFERNO CORE STYLE */
+.jdw-copy-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: #0b0b0b !important; /* Nero profondo per lo sfondo */
+    color: #ff0033 !important; /* Icona Rosso Inferno nativa */
+    border: 1px solid #ff0033 !important; /* Bordo Rosso Inferno rigido */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0.7;
+    line-height: 1 !important;
+    box-sizing: border-box;
+}
+
+.jdw-copy-btn:hover {
+    opacity: 1;
+    background-color: #111 !important;
+    color: #00ffcc !important; /* L'icona diventa Ciano al passaggio del mouse */
+    border-color: #00ffcc !important; /* Il bordo diventa Ciano */
+    box-shadow: 0 0 8px rgba(0, 255, 204, 0.4);
+}
+
+/* ==========================================================================
+ *   🛸 CONFIGURAZIONE DESKTOP (VISTA PC COMPLETA)
+ *   ========================================================================== */
+.jdw-toggle-btn {
+    display: none !important; /* Nasconde ASSOLUTAMENTE il pulsante su PC */
+}
+
+.jdw-desktop-socials {
+    display: flex;
+}
+
+/* Menu di base nella barra rossa su PC: in linea orizzontale */
+.nav-links-wrapper {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.menu-inferno-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Mette le voci affiancate in orizzontale */
+}
+
+.menu-inferno-lista li {
+    margin-right: 20px;
+}
+
+/* ==========================================================================
+ *   📱 CONFIGURAZIONE RESPONSIVE (SMARTPHONE - MAX 768px)
+ *   ========================================================================== */
+@media (max-width: 768px) {
+    .jdw-desktop-socials {
+        display: none !important; /* Nasconde i link GitHub/Telegram sul telefono */
+    }
+
+    /* Mostra lo splendido pulsantino ciano in alto a destra nella barra nera */
+    .jdw-toggle-btn {
+        display: inline-block !important;
+        background-color: #000 !important;
+        color: #00ffcc !important;
+        border: 1px solid #333 !important;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.8rem;
+        padding: 3px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    /* 🛡️ TRASFORMAZIONE: L'unico menu diventa la tendina fluttuante dall'alto dello smartphone */
+    .nav-links-wrapper {
+        display: none !important; /* Di base nascosto sul telefono */
+        position: absolute !important;
+        top: 40px !important; /* Scende dalla barra nera superiore */
+        right: 10px !important;
+        width: 240px !important;
+        background-color: #0f0f0f !important;
+        border: 1px solid #ff0033 !important; /* Bordo Rosso Inferno rigido */
+        border-radius: 4px;
+        padding: 15px !important;
+        z-index: 99999 !important; /* Passa sopra al banner e alle immagini della griglia */
+        box-shadow: 0 5px 20px rgba(0,0,0,0.9);
+        box-sizing: border-box;
+    }
+
+    /* Quando il JS inietta la classe .attivo, la tendina appare magicamente in overlay */
+    .nav-links-wrapper.attivo {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* Incolonna le categorie in verticale dentro la tendina dello smartphone */
+    .menu-inferno-lista {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .menu-inferno-lista li {
+        margin-right: 0 !important;
+        margin-bottom: 12px !important;
+        border-bottom: 1px solid #222;
+        padding-bottom: 4px;
+        width: 100%;
+    }
+
+    /* Barra rossa inferiore sul telefono: contiene solo il Cerca pulito ed esteso */
+    .jdw-nav-bar-inferno .nav-container {
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    .nav-search-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* ==========================================================================
+ * 🔗 INFERNO-666 ENGINE // RESET COMPLETO DEI LINK (ADDIO BLU/VIOLA)         *
+ * ========================================================================== */
+/* Link Normali all'interno degli articoli */
+.pacchetto-content a, .card-excerpt a, .jdw-sidebar-destra a {
+    color: #00ffcc !important; /* Ciano JDW-WebDev di base */
+    text-decoration: none !important;
+    transition: color 0.15s ease;
+}
+
+/* Link già visitati (Inibiti dal viola) */
+.pacchetto-content a:visited, .card-excerpt a:visited, .jdw-sidebar-destra a:visited {
+    color: #00cc99 !important; /* Verde ciano leggermente più scuro per i log letti */
+}
+
+/* Link al passaggio del cursore (Overlay) */
+.pacchetto-content a:hover, .card-excerpt a:hover, .jdw-sidebar-destra a:hover {
+    color: #ff5500 !important; /* Arancione acceso Media Control */
+}
+
+
+/* ==========================================================================
+ * 🦊 INFERNO-666 ENGINE // FILTRI COLORI SVG SOCIAL (#222 ➔ ARANCIONE ACCESO)  *
+ * ========================================================================== */
+.jdw-social-svg {
+    width: 20px !important;
+    max-width: 20px !important;
+    height: 20px !important;
+    max-height: 20px !important;
+    margin-right: 6px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    box-sizing: border-box;
+
+    /* 🎨 FILTRO BASE: Trasforma qualsiasi SVG originale nel colore Grigio Scuro #222 */
+    filter: invert(9%) sepia(0%) saturate(1%) hue-rotate(188deg) brightness(95%) contrast(93%) !important;
+    transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+/* Effetto Hover combinato per la sfilza dei social */
+.jdw-desktop-socials .social-link {
+    color: #222222 !important; /* Il testo minuscolo parte grigio #222 */
+    text-decoration: none !important;
+    margin-left: 18px;
+    display: inline-flex !important;
+    align-items: center;
+    transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.jdw-desktop-socials .social-link:hover {
+    color: #ff5500 !important; /* Il testo diventa Arancione acceso */
+    transform: scale(1.1);
+}
+
+.jdw-desktop-socials .social-link:hover .jdw-social-svg {
+    /* 🎨 FILTRO HOVER: Trasforma l'SVG nell'Arancione Acceso della fortezza (#ff5500) */
+    filter: invert(39%) sepia(91%) saturate(3716%) hue-rotate(1deg) brightness(103%) contrast(106%) !important;
+}
+
+/* ==========================================================================
+ * 🦊 INFERNO-666 ENGINE // BREADCRUMB PHP PURO (single.php | page.php)       *
+ * ========================================================================== */
+.breadcrumbs ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #ff5500;
+}
+
+.breadcrumbs-separator {
+    margin: 0 8px;
+    color: #666;
+}
+
+.breadcrumbs li[aria-current="page"] {
+    color: #333;
+    font-weight: bold;
+}
+
+
+/**/
+
+/* ==========================================================================
+ *  NETBIRD CONSOLE COMPONENT // INFERNO STYLE
+ *  ========================================================================== */
+.widget-netbird-inferno {
+    background-color: #121212 !important;
+    border: 1px solid #222 !important;
+    padding: 20px !important;
+    margin-bottom: 30px !important;
+    box-shadow: none !important;
+}
+
+.widget-title-inferno {
+    color: #ffffff !important;
+    text-shadow: 0 0 6px #ff0000 !important;
+    font-size: 0.9rem !important;
+    font-weight: bold !important;
+    letter-spacing: 1.5px !important;
+    margin-bottom: 15px !important;
+    text-transform: uppercase !important;
+}
+
+.console-log-inferno {
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 0.8rem !important;
+    line-height: 1.5 !important;
+    white-space: pre-wrap !important;
+    overflow-x: auto !important;
+    background-color: #050505 !important;
+    padding: 15px !important;
+    border: 1px solid #1a1a1a !important;
+}
+
+/* 🕹️ CODICI COLORE STATO NODI VPN */
+.node-online-p2p {
+    color: #00ff00 !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 6px rgba(0, 255, 0, 0.5) !important;
+}
+
+.node-relay {
+    color: #ff6600 !important;
+    font-weight: bold !important;
+}
+
+.node-offline {
+    color: #ff0000 !important;
+    text-decoration: line-through !important;
+    opacity: 0.6 !important;
+}
