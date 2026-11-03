@@ -1,0 +1,12 @@
+pkgname=jdwos-wpuch
+pkgver=1.0.0
+pkgdesc=Sfondo Desktop [KDE] Ultima Cena Horror per Tema Chiaro/Scuro
+dependencies=nessuna
+dependenciesdeb=nessuna
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=7,8M
+installed_size=7,8M
+build_date=01-08-2026
+update_date=05-08-2026
