@@ -1,0 +1,12 @@
+pkgname=jdwos-ff-stm
+pkgver=1.1.5
+pkgdesc=Configurazione Custom con Kitty per Fastfetch
+dependencies=kitty, fastfetch, ttf-nerd-fonts-symbols-common, ttf-jetbrains-mono-nerd, ttf-nerd-fonts-symbols
+dependenciesdeb=non supportato
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=2,8M
+installed_size=2,8M
+build_date=20-06-2026
+update_date=02-11-2026
