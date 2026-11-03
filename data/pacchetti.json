@@ -1,0 +1,91 @@
+[
+  {
+    "nome": "ic666-pm",
+    "versione": "1.0.1",
+    "descrizione": "Simple Package Manager"
+  }
+,
+  {
+    "nome": "jdwos-corelib",
+    "versione": "1.2.2",
+    "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ Ø$"
+  }
+,
+  {
+    "nome": "jdwos-ic666",
+    "versione": "6.6.6",
+    "descrizione": "Inferno Core 6.6.6 Hub System"
+  }
+,
+  {
+    "nome": "jdwos-mc",
+    "versione": "1.0.3",
+    "descrizione": "Media Control Lite (Boccaporto Edition) [IC666 MOD.]"
+  }
+,
+  {
+    "nome": "jdwos-netbird",
+    "versione": "1.2.0",
+    "descrizione": "NetBird P2P VPN Suite"
+  }
+,
+  {
+    "nome": "jdwos-ogx",
+    "versione": "137.0.6036.65",
+    "descrizione": "OperaGX Browser web"
+  }
+,
+  {
+    "nome": "jdwos-pm",
+    "versione": "1.2.4",
+    "descrizione": "JDWorld OS Package Manager Universale"
+  }
+,
+  {
+    "nome": "jdwos-stm",
+    "versione": "1.1.8",
+    "descrizione": "JDWorld OS System Tray Menù"
+  }
+,
+  {
+    "nome": "jdwos-stream-player",
+    "versione": "1.1.0",
+    "descrizione": "Music Player Streaming Core"
+  }
+,
+  {
+    "nome": "jdwos-telegram",
+    "versione": "1.0.1",
+    "descrizione": "Telegram Desktop per il JDWorld OS"
+  }
+,
+  {
+    "nome": "jdwos-wpuch",
+    "versione": "1.0.0",
+    "descrizione": "Sfondo Desktop [KDE] Ultima Cena Horror per Tema Chiaro/Scuro"
+  }
+,
+  {
+    "nome": "nokitty-ff-stm",
+    "versione": "1.1.3",
+    "descrizione": "Configurazione Custom per FastFetch [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-mc",
+    "versione": "1.0.3",
+    "descrizione": "Media Control Lite (Boccaporto Edition) [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-stm",
+    "versione": "1.1.8",
+    "descrizione": "JDWorld OS System Tray Menù [NO KITTY]"
+  }
+,
+  {
+    "nome": "nokitty-stream-player",
+    "versione": "1.1.1",
+    "descrizione": "Metal Streaming Player Core [NO KITTY]"
+  }
+]

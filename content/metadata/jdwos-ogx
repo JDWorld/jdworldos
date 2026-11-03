@@ -1,0 +1,12 @@
+pkgname=jdwos-ogx
+pkgver=137.0.6036.65
+pkgdesc=OperaGX Browser web
+dependencies=nessuna
+dependenciesdeb=nessuna
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=414M
+installed_size=414M
+build_date=15-10-2026
+update_date=25-10-2026
