@@ -6,9 +6,27 @@
   }
 ,
   {
+    "nome": "jdwos-brave",
+    "versione": "1.95.101",
+    "descrizione": "Brave Browser per JDWorld OS (Arch/Debian)"
+  }
+,
+  {
+    "nome": "jdwos-briar",
+    "versione": "1.0.0",
+    "descrizione": "Chat P2P crittografata su rete Tor (Arch/Debian)"
+  }
+,
+  {
     "nome": "jdwos-corelib",
     "versione": "1.2.2",
-    "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ Ø$"
+    "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ ØS"
+  }
+,
+  {
+    "nome": "jdwos-ff-stm",
+    "versione": "1.1.5",
+    "descrizione": "Configurazione Custom con Kitty per Fastfetch"
   }
 ,
   {
@@ -18,32 +36,32 @@
   }
 ,
   {
-    "nome": "jdwos-mc",
-    "versione": "1.0.3",
-    "descrizione": "Media Control Lite (Boccaporto Edition) [IC666 MOD.]"
-  }
-,
-  {
     "nome": "jdwos-netbird",
     "versione": "1.2.0",
     "descrizione": "NetBird P2P VPN Suite"
   }
 ,
   {
-    "nome": "jdwos-ogx",
-    "versione": "137.0.6036.65",
-    "descrizione": "OperaGX Browser web"
+    "nome": "jdwos-obs-teleport",
+    "versione": "1.1.5",
+    "descrizione": "OBS Studio Plugins Teleport"
   }
 ,
   {
-    "nome": "jdwos-pm",
-    "versione": "1.2.4",
-    "descrizione": "JDWorld OS Package Manager Universale"
+    "nome": "jdwos-ogx",
+    "versione": "138.0.6044.65",
+    "descrizione": "OperaGX Browser Web per GNU/Linux"
+  }
+,
+  {
+    "nome": "jdwos-qge",
+    "versione": "1.0.0",
+    "descrizione": "QuickGUI e QuickEMU per JDWorld OS"
   }
 ,
   {
     "nome": "jdwos-stm",
-    "versione": "1.1.8",
+    "versione": "1.1.9",
     "descrizione": "JDWorld OS System Tray Menù"
   }
 ,
@@ -55,37 +73,19 @@
 ,
   {
     "nome": "jdwos-telegram",
-    "versione": "1.0.1",
+    "versione": "7.3.3",
     "descrizione": "Telegram Desktop per il JDWorld OS"
+  }
+,
+  {
+    "nome": "jdwos-wp-inferno",
+    "versione": "6.6.6",
+    "descrizione": "Inferno Template per il JÐWØ®LÐ Ø$"
   }
 ,
   {
     "nome": "jdwos-wpuch",
     "versione": "1.0.0",
     "descrizione": "Sfondo Desktop [KDE] Ultima Cena Horror per Tema Chiaro/Scuro"
-  }
-,
-  {
-    "nome": "nokitty-ff-stm",
-    "versione": "1.1.3",
-    "descrizione": "Configurazione Custom per FastFetch [NO KITTY]"
-  }
-,
-  {
-    "nome": "nokitty-mc",
-    "versione": "1.0.3",
-    "descrizione": "Media Control Lite (Boccaporto Edition) [NO KITTY]"
-  }
-,
-  {
-    "nome": "nokitty-stm",
-    "versione": "1.1.8",
-    "descrizione": "JDWorld OS System Tray Menù [NO KITTY]"
-  }
-,
-  {
-    "nome": "nokitty-stream-player",
-    "versione": "1.1.1",
-    "descrizione": "Metal Streaming Player Core [NO KITTY]"
   }
 ]

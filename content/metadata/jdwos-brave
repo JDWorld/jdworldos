@@ -1,0 +1,12 @@
+pkgname=jdwos-brave
+pkgver=1.95.101
+pkgdesc=Brave Browser per JDWorld OS (Arch/Debian)
+dependencies=nessuna
+dependenciesdeb=nessuna
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=197M
+installed_size=463M
+build_date=14-09-2026
+update_date=14-09-2026
