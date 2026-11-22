@@ -1,12 +1,11 @@
 pkgname=jdwos-stream-player
-pkgver=1.1.0
+pkgver=1.1.5
 pkgdesc=Music Player Streaming Core
 dependencies=ffmpeg kdialog yt-dlp socat jq kitty mpv
-dependenciesdeb=ffmpeg kdialog yt-dlp socat jq kitty mpv
 architecture=x86_64 / JDW
 license=Simplified BSD License
 maintainer=JDWorld
 package_size=84K
 installed_size=84K
 build_date=22-08-2026
-update_date=22-08-2026
+update_date=22-11-2026

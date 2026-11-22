@@ -1,8 +1,8 @@
 [
   {
-    "nome": "ic666-pm",
-    "versione": "1.0.1",
-    "descrizione": "Simple Package Manager"
+    "nome": "jdwos-acl",
+    "versione": "v1.0.1",
+    "descrizione": "rustup"
   }
 ,
   {
@@ -19,14 +19,14 @@
 ,
   {
     "nome": "jdwos-corelib",
-    "versione": "1.2.2",
+    "versione": "6.6.6",
     "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ ØS"
   }
 ,
   {
     "nome": "jdwos-ff-stm",
-    "versione": "1.1.5",
-    "descrizione": "Configurazione Custom con Kitty per Fastfetch"
+    "versione": "2.1.9",
+    "descrizione": "Configurazione Custom per Kitty e FastFetch"
   }
 ,
   {
@@ -36,9 +36,51 @@
   }
 ,
   {
+    "nome": "jdwos-kodiwd",
+    "versione": "v1.0.0",
+    "descrizione": "Kodi Anti-Freeze WatchDog. Risolve il problema in chiusura di Kodi Flatpak"
+  }
+,
+  {
+    "nome": "jdwos-mc",
+    "versione": "1.0.4",
+    "descrizione": "Media Control Lite (Boccaporto Edition) [IC666 MOD.]"
+  }
+,
+  {
+    "nome": "jdwos-meta-gnome",
+    "versione": "v1.0.1",
+    "descrizione": "JDWorld OS META-PKG-GNOME"
+  }
+,
+  {
+    "nome": "jdwos-meta-junior",
+    "versione": "v1.0.1",
+    "descrizione": "JDWorld OS META-PKG-JUNIOR"
+  }
+,
+  {
+    "nome": "jdwos-meta-pkg",
+    "versione": "v1.0.1",
+    "descrizione": "JÐWØ®LÐ ØS: META-PKG"
+  }
+,
+  {
+    "nome": "jdwos-meta-plasma",
+    "versione": "v1.0.1",
+    "descrizione": "JDWorld OS META-PKG-PLASMA"
+  }
+,
+  {
     "nome": "jdwos-netbird",
-    "versione": "1.2.0",
+    "versione": "1.2.7",
     "descrizione": "NetBird P2P VPN Suite"
+  }
+,
+  {
+    "nome": "jdwos-nuke",
+    "versione": "1.0.9",
+    "descrizione": "Manuntenzione Sistema"
   }
 ,
   {
@@ -55,19 +97,25 @@
 ,
   {
     "nome": "jdwos-qge",
-    "versione": "1.0.0",
+    "versione": "1.0.1",
     "descrizione": "QuickGUI e QuickEMU per JDWorld OS"
   }
 ,
   {
+    "nome": "jdwos-spm",
+    "versione": "1.0.7",
+    "descrizione": "Simple Package Manager"
+  }
+,
+  {
     "nome": "jdwos-stm",
-    "versione": "1.1.9",
+    "versione": "6.6.6",
     "descrizione": "JDWorld OS System Tray Menù"
   }
 ,
   {
     "nome": "jdwos-stream-player",
-    "versione": "1.1.0",
+    "versione": "1.1.5",
     "descrizione": "Music Player Streaming Core"
   }
 ,

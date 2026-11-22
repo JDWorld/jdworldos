@@ -1,5 +1,5 @@
-pkgname=ic666-pm
-pkgver=1.0.1
+pkgname=jdwos-spm
+pkgver=1.0.7
 pkgdesc=Simple Package Manager
 dependencies=nessuna
 dependenciesdeb=nessuna
@@ -9,4 +9,4 @@ maintainer=JDWorld
 package_size=20K
 installed_size=20K
 build_date=14-08-2026
-update_date=22-08-2026
+update_date=22-11-2026

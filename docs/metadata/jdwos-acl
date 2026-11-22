@@ -1,0 +1,12 @@
+pkgname=jdwos-acl
+pkgver=v1.0.1
+pkgdesc=rustup
+dependencies=nessuna
+dependenciesdeb=non supportato
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=16K
+installed_size=16K
+build_date=21-11-2026
+update_date=22-11-2026

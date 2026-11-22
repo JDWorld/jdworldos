@@ -1,0 +1,12 @@
+pkgname=jdwos-meta-junior
+pkgver=v1.0.1
+pkgdesc=JDWorld OS META-PKG-JUNIOR
+dependencies=base-devel kdialog btop usbutils pacman-contrib git wget unrar p7zip pipewire-pulse pipewire-alsa wireplumber mpv ntfs-3g exfatprogs dosfstools btrfs-progs e2fsprogs taglib icoutils jdwos-stm jdwos-ff-stm
+dependenciesdeb=non supportato
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=4,0K
+installed_size=4,0K
+build_date=18-11-2026
+update_date=22-11-2026
