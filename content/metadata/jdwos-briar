@@ -1,12 +1,11 @@
 pkgname=jdwos-briar
-version=1.0.0
-description=Chat P2P crittografata su rete Tor (Arch/Debian)
+version=1.0.1
+description=Chat P2P crittografata su rete Tor
 dependencies=nessuna
-dependenciesdeb=nessuna
 architecture=x86_64
 license=Simplified BSD License
 maintainer=JDWorld
 package_size=248M
 Installed_size=248M
 build_date=10-07-2026
-Update_date=10-07-2026
+Update_date=26-08-2026

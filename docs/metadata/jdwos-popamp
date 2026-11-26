@@ -1,0 +1,12 @@
+pkgname=jdwos-popamp-plus
+pkgver=1.0.0
+pkgdesc=Un tributo moderno al classico Winamp 2
+dependencies=nessuna
+dependenciesdeb=non supportato
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=42M
+installed_size=42M
+build_date=24-11-2026
+update_date=24-11-2026

@@ -1,8 +1,8 @@
 [
   {
     "nome": "jdwos-acl",
-    "versione": "v1.0.1",
-    "descrizione": "rustup"
+    "versione": "1.0.1",
+    "descrizione": "ArtCraft Launcher, Suite Creativa Open-Source"
   }
 ,
   {
@@ -13,14 +13,14 @@
 ,
   {
     "nome": "jdwos-briar",
-    "versione": "1.0.0",
-    "descrizione": "Chat P2P crittografata su rete Tor (Arch/Debian)"
+    "versione": "1.0.1",
+    "descrizione": "Chat P2P crittografata su rete Tor"
   }
 ,
   {
     "nome": "jdwos-corelib",
-    "versione": "6.6.6",
-    "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ ØS"
+    "versione": "1.2.2",
+    "descrizione": "Funzioni e Motore Grafico TrueColor 24bit per il JÐWØ®LÐ Ø$"
   }
 ,
   {
@@ -67,7 +67,7 @@
 ,
   {
     "nome": "jdwos-meta-plasma",
-    "versione": "v1.0.1",
+    "versione": "1.0.1",
     "descrizione": "JDWorld OS META-PKG-PLASMA"
   }
 ,
@@ -93,6 +93,18 @@
     "nome": "jdwos-ogx",
     "versione": "138.0.6044.65",
     "descrizione": "OperaGX Browser Web per GNU/Linux"
+  }
+,
+  {
+    "nome": "jdwos-pmpp",
+    "versione": "1.0.0",
+    "descrizione": "Un tributo moderno al classico Winamp 2"
+  }
+,
+  {
+    "nome": "jdwos-popamp",
+    "versione": "1.0.0",
+    "descrizione": "Un tributo moderno al classico Winamp 2"
   }
 ,
   {
@@ -135,5 +147,11 @@
     "nome": "jdwos-wpuch",
     "versione": "1.0.0",
     "descrizione": "Sfondo Desktop [KDE] Ultima Cena Horror per Tema Chiaro/Scuro"
+  }
+,
+  {
+    "nome": "jdwos-xvb",
+    "versione": "v1.0.0",
+    "descrizione": "nessuna"
   }
 ]

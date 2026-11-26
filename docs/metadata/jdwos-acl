@@ -1,6 +1,6 @@
 pkgname=jdwos-acl
-pkgver=v1.0.1
-pkgdesc=rustup
+pkgver=1.0.1
+pkgdesc=ArtCraft Launcher, Suite Creativa Open-Source
 dependencies=nessuna
 dependenciesdeb=non supportato
 architecture=x86_64 / JDW

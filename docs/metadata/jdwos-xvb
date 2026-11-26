@@ -1,0 +1,12 @@
+pkgname=jdwos-xvb
+pkgver=v1.0.0
+pkgdesc=nessuna
+dependencies=nessuna
+dependenciesdeb=non supportato
+architecture=x86_64 / JDW
+license=Simplified BSD License
+maintainer=JDWorld
+package_size=20K
+installed_size=20K
+build_date=23-11-2026
+update_date=23-11-2026

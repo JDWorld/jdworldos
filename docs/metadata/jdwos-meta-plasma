@@ -1,7 +1,7 @@
 pkgname=jdwos-meta-plasma
-pkgver=v1.0.1
+pkgver=1.0.1
 pkgdesc=JDWorld OS META-PKG-PLASMA
-dependencies=base-devel dolphin dolphin-plugins kate kdeconnect kio-admin konsole spectacle gwenview pipewire-pulse pipewire-alsa wireplumber mpv filezilla thunderbird thunderbird-i18n-it thunderbird-ublock-origin firefox firefox-adblock-plus firefox-i18n-it firefox-ublock-origin kdialog kitty btop fastfetch pyqt6 usbutils pacman-contrib ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ntfs-3g exfatprogs dosfstools btrfs-progs e2fsprogs partitionmanager ffmpegthumbs kdegraphics-thumbnailers taglib icoutils ark unrar p7zip git wget obs-studio jdwos-stm jdwos-ff-stm jdwos-ic666 jdwos-netbird jdwos-wp-inferno jdwos-wpuch jdwos-spm jdwos-mc jdwos-stram-player jdwos-acl
+dependencies=base-devel dolphin dolphin-plugins kate kdeconnect kio-admin konsole spectacle gwenview pipewire-pulse pipewire-alsa wireplumber mpv filezilla thunderbird thunderbird-i18n-it thunderbird-ublock-origin firefox firefox-adblock-plus firefox-i18n-it firefox-ublock-origin kdialog kitty btop fastfetch pyqt6 usbutils pacman-contrib ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ntfs-3g exfatprogs dosfstools btrfs-progs e2fsprogs partitionmanager ffmpegthumbs kdegraphics-thumbnailers taglib icoutils ark unrar p7zip git wget obs-studio jdwos-stm jdwos-ff-stm jdwos-ic666 jdwos-netbird jdwos-wp-inferno jdwos-wpuch jdwos-spm jdwos-mc jdwos-stream-player jdwos-acl
 dependenciesdeb=non supportato
 architecture=x86_64 / JDW
 license=Simplified BSD License
@@ -9,4 +9,4 @@ maintainer=JDWorld
 package_size=4,0K
 installed_size=4,0K
 build_date=18-11-2026
-update_date=22-11-2026
+update_date=24-11-2026
